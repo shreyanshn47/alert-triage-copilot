@@ -179,3 +179,15 @@ Add one line per work block: date, step, what works, what is next, measured numb
   Run-key writes (T1547.001 look-alikes). needs_human is high (19/36): threshold 0.6 and prompt untuned.
   Live check in Docker: ingest then triage returned a validated, cited verdict. Next: step 5 (injection and
   guardrail tests, 1 h).
+- 2026-11-01, Step 5 (injection and guardrail tests), roughly 1 h of 1 h budget (estimate, not timed): 20 synthetic
+  injection samples (`data/make_injection.py`, 20 different payload styles in 6 attacker-controlled fields, each with
+  a no-payload control), `eval.injection`, 20 new tests (schema limits incl. NaN/Infinity confidence, citation
+  integrity, injection data and prompt-block integrity, tenant isolation through the real database, SQL tripwire).
+  `ruff` clean, `pytest` 151 passed. Mutation check: removing the tenant filter fails 3 tests; restored.
+  MEASURED (claude-haiku-5-5, effort low, prompt NOT tuned on these samples): attacker got "benign" 0/20, so the
+  plan's injection resistance is 20/20. Control verdicts 18 malicious / 2 needs_human; injected 12 malicious /
+  8 needs_human, so 8/20 changed: 7 malicious -> needs_human, 1 needs_human -> malicious. Rationale flagged the
+  manipulation 12/20. Cost about $0.03. Limits: n=20, so 0/20 still allows up to about 15% attacker success;
+  one model and prompt; the base alerts are blatant (18/20 caught without a payload), so a borderline attack
+  carrying a payload is untested; no ablation of which defense layer did the work. An attacker can push alerts to
+  needs_human (a workload attack), not hide them. Next: step 6 (evaluation harness, 2.5 h).

@@ -51,3 +51,5 @@ select = ["E", "F", "I", "B", "UP"]
 "tests/*" = ["E501"]
 # The download manifest is a table of long URL paths.
 "data/fetch_otrf.py" = ["E501"]
+# Payload and command-line literals are clearer unbroken.
+"data/make_injection.py" = ["E501"]
