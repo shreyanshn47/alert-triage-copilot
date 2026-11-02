@@ -191,3 +191,19 @@ Add one line per work block: date, step, what works, what is next, measured numb
   one model and prompt; the base alerts are blatant (18/20 caught without a payload), so a borderline attack
   carrying a payload is untested; no ablation of which defense layer did the work. An attacker can push alerts to
   needs_human (a workload attack), not hide them. Next: step 6 (evaluation harness, 2.5 h).
+- 2026-11-02, Step 6 (evaluation), roughly 3 h of 2.5 h budget (estimate, not timed; over by about half an hour):
+  `eval.run` harness for rules only / LLM no retrieval / LLM + retrieval / LLM + retrieval on Sonnet, Wilson intervals,
+  threshold sweep, freeze + one-shot test lock, cost guard, faithfulness review sheet. Parser now maps events 4688 and
+  5145 (found by a baseline test: Security-log events looked different from Sysmon ones). ONE dev prompt iteration
+  under a rule fixed in advance (`docs/prompt_iteration.md`): adopted; dev called-malicious 9/18 -> 16/18, to a human
+  19/36 -> 8/36, benign->malicious 2/18 -> 3/18, malicious->benign 0 -> 2 (both harmless-looking labels). Threshold
+  0.6 unchanged (sweep showed no better value). Frozen at ece14b5, then the TEST SET WAS RUN ONCE (34 malicious,
+  42 benign). `ruff` clean, `pytest` 191 passed. MEASURED ON TEST (LLM + retrieval, Haiku 5.5): called malicious 27/34
+  (79%; 63-90%), silently called benign 4/34, to a human 3/34; benign false positives 3/42 (7%), benign auto-closed
+  24/42 (57%); technique accuracy 27/34; retrieval hit@5 34/34; quotes verbatim 181/196; 68 valid first try, 8 after
+  a retry, 0 fell back; cost $0.77 per 1,000 alerts; latency median 4.5 s, p95 8.4 s; injection 20/20 (0 turned
+  benign). Rules only: 23/34 called malicious, 11/34 silently benign, 3/42 false positives, 39/42 benign closed.
+  LLM without retrieval: 17/34 called malicious, 64% of alerts to a human. Sonnet 5.5 (same prompt): 16/34 called
+  malicious, 49% to a human, $10.94 per 1,000. Differences between systems are mostly inside the intervals. Results:
+  `docs/results.md`. Evidence faithfulness is NOT yet judged: `docs/faithfulness_review.md` awaits a person.
+  Next: step 7 (write-up, README, CI smoke gate, 1 h).

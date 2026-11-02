@@ -1,0 +1,11 @@
+{
+  "ran_at": "2026-11-02T04:49:47+00:00",
+  "commit": "92098b72e83350834a002c1d3238a951d1004b28",
+  "systems": [
+    "rules_only",
+    "llm_no_rag",
+    "llm_rag",
+    "llm_rag_sonnet"
+  ],
+  "note": "The test set has been run. Do not run it again."
+}
