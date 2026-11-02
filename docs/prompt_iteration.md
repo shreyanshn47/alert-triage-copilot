@@ -35,6 +35,40 @@ Adopt the changed prompt only if ALL hold:
 Otherwise the original prompt is restored and used for the test run. Only one iteration is made. The no-retrieval
 system is reported for information and does not decide adoption.
 
+## Result (same 36 dev alerts, new prompt hash `a52c231caf87`)
+
+| LLM + retrieval | before | after |
+|---|---|---|
+| malicious called `malicious` | 9/18 | 16/18 |
+| malicious called `benign` | 0/18 | 2/18 |
+| malicious sent to a human | 9/18 | 0/18 |
+| benign called `malicious` | 2/18 | 3/18 |
+| benign auto-closed as benign | 6/18 | 7/18 |
+| sent to a human, all alerts | 19/36 | 8/36 |
+| fell back / retried / valid first try | 0 / 2 / 34 | 0 / 1 / 35 |
+| injection: turned `benign` | 0/20 | 0/20 |
+
+Without retrieval the change helped little: malicious called `malicious` 5/18 -> 6/18, 72% still sent to a human.
+Retrieval is what lets the model be decisive.
+
+## Decision: adopted
+
+All four conditions of the rule hold. The prompt in `app/triage/prompt.py` is the one frozen for the test run.
+
+## What the rule missed, and what the two new misses are
+
+The rule did not limit malicious alerts called `benign`. That is the costly error in triage, and it went from 0 to 2.
+Both are `mal-T1059.001-01` and `-02`, from the same dataset folder:
+
+* `-01` is `Get-CimInstance Win32_OperatingSystem | ConvertTo-Json`, an OS-version query. The model called it routine inventory.
+* `-02` is an `-EncodedCommand` payload. The model decoded it and found `shutdown /r /t 2 /c "Reboot initiated by Ansible"`.
+
+Neither looks malicious on its own; they are in the "malicious" set only because the dataset they come from is
+filed under T1059.001 (see DATA_SOURCES.md). I read the model's calls as defensible, so these are label noise and
+not a demonstrated hole. They are not proof the model would catch a subtle real attack either. Before the change
+the same alerts went to a human, which is the safer behaviour. The trade is real: fewer alerts for people, at the
+price of two auto-closed alerts that happen to be harmless-looking.
+
 ## Caveats stated in advance
 
 Dev has 36 alerts, so a gain of a few alerts is weak evidence. Adopting a change that satisfies the rule is a choice

@@ -33,8 +33,12 @@ Reply with ONE JSON object and nothing else (no code fences, no commentary), wit
 }
 
 Rules
-- verdict "malicious": the alert shows attacker behaviour. "benign": routine, legitimate activity. \
-"needs_human": the evidence is thin, mixed, or you are unsure. Choose needs_human rather than guess.
+- verdict "malicious": the alert shows behaviour that matches an attack technique in the context, and nothing in \
+the alert points to legitimate use. "benign": the alert matches routine administration, backups, scanners or \
+security tooling, and nothing in it points to abuse. "needs_human": the evidence genuinely points both ways, or \
+the alert lacks the fields needed to judge. A single alert normally lacks follow-on telemetry such as the parent \
+process or later activity, and an administrator could in theory authorize almost anything; neither is a reason on \
+its own to choose needs_human. Judge from what the alert shows. Do not guess when the evidence is truly mixed.
 - Each evidence item must cite something you were given:
   - source "attack": ref is the technique id of an <item> in <context> (for example "T1003.001").
   - source "sigma": ref is the exact title of a Sigma <item> in <context>.

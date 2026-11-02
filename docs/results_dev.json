@@ -1,8 +1,8 @@
 {
  "split": "dev",
- "generated_at": "2026-11-02T04:05:57+00:00",
+ "generated_at": "2026-11-02T04:27:42+00:00",
  "threshold": 0.6,
- "prompt_sha256": "815bd1595ff6ad8f2f74c65a4fb6121bef8d25afec10bbbae285af7838c85798",
+ "prompt_sha256": "a52c231caf873a4dac433969638a5eb2e9c3e4e157c88ff4ccaeede62f7328bf",
  "retrieval_hit5": {
   "k": 18,
   "n": 18,
@@ -103,7 +103,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 0.0010098000057041645,
+     "seconds": 0.0009219001512974501,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -119,7 +119,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 7.199984975159168e-05,
+     "seconds": 5.770009011030197e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -135,7 +135,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 4.729977808892727e-05,
+     "seconds": 4.239985719323158e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -151,7 +151,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 3.3700140193104744e-05,
+     "seconds": 3.200001083314419e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -167,7 +167,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.7900019884109497e-05,
+     "seconds": 1.850002445280552e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -183,7 +183,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.2399861589074135e-05,
+     "seconds": 1.0600080713629723e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -215,7 +215,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.9399914890527725e-05,
+     "seconds": 1.6899779438972473e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -231,7 +231,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 4.579988308250904e-05,
+     "seconds": 4.2800093069672585e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -247,7 +247,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 5.400041118264198e-06,
+     "seconds": 4.699919372797012e-06,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -263,7 +263,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 5.7998113334178925e-06,
+     "seconds": 5.299923941493034e-06,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -279,7 +279,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 5.800044164061546e-06,
+     "seconds": 3.700144588947296e-06,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -295,7 +295,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 0.000632900046184659,
+     "seconds": 0.0006076998542994261,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -311,7 +311,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 2.7399975806474686e-05,
+     "seconds": 2.0300038158893585e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -327,7 +327,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.859990879893303e-05,
+     "seconds": 1.8300022929906845e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -343,7 +343,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 2.510007470846176e-05,
+     "seconds": 2.2799940779805183e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -359,7 +359,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.7999904230237007e-05,
+     "seconds": 1.6200123354792595e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -375,7 +375,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.559988595545292e-05,
+     "seconds": 1.5300000086426735e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -391,7 +391,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 5.1999930292367935e-05,
+     "seconds": 5.030003376305103e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -407,7 +407,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 3.9300182834267616e-05,
+     "seconds": 3.690016455948353e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -423,7 +423,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 4.169996827840805e-05,
+     "seconds": 4.0800077840685844e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -439,7 +439,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 6.189988926053047e-05,
+     "seconds": 6.0900114476680756e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -455,7 +455,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 5.689985118806362e-05,
+     "seconds": 5.710008554160595e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -471,7 +471,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 4.939991049468517e-05,
+     "seconds": 4.959991201758385e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -487,7 +487,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 6.160000339150429e-05,
+     "seconds": 1.740013249218464e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -503,7 +503,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 2.150004729628563e-05,
+     "seconds": 1.610000617802143e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -519,7 +519,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.6800127923488617e-05,
+     "seconds": 1.6399892047047615e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -535,7 +535,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.659989356994629e-05,
+     "seconds": 1.4999881386756897e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -551,7 +551,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.919991336762905e-05,
+     "seconds": 1.6799895092844963e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -567,7 +567,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.5199882909655571e-05,
+     "seconds": 1.5999889001250267e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -583,7 +583,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.8399907276034355e-05,
+     "seconds": 1.750001683831215e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -599,7 +599,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 4.719989374279976e-05,
+     "seconds": 3.719981759786606e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -615,7 +615,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 1.5399884432554245e-05,
+     "seconds": 1.3799872249364853e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -631,7 +631,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 3.260001540184021e-05,
+     "seconds": 2.9799994081258774e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -647,7 +647,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 2.610008232295513e-05,
+     "seconds": 2.559996210038662e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -663,7 +663,7 @@
      "confidence": 1.0,
      "model_verdict": null,
      "status": "n/a",
-     "seconds": 2.769986167550087e-05,
+     "seconds": 2.6900088414549828e-05,
      "cost_usd": 0.0,
      "calls": 0,
      "cached_calls": 0,
@@ -684,11 +684,11 @@
      "hi": 0.9901250641690756
     },
     "recall_strict": {
-     "k": 5,
+     "k": 6,
      "n": 18,
-     "rate": 0.2777777777777778,
-     "lo": 0.12499569146355474,
-     "hi": 0.5087307754619452
+     "rate": 0.3333333333333333,
+     "lo": 0.1627855436366286,
+     "hi": 0.5625093065574964
     },
     "benign_fpr": {
      "k": 0,
@@ -698,42 +698,42 @@
      "hi": 0.1758845505823749
     },
     "benign_auto_closed": {
-     "k": 5,
+     "k": 3,
      "n": 18,
-     "rate": 0.2777777777777778,
-     "lo": 0.12499569146355474,
-     "hi": 0.5087307754619452
+     "rate": 0.16666666666666666,
+     "lo": 0.05836470400465757,
+     "hi": 0.39222499638359243
     },
     "needs_human_rate": {
-     "k": 25,
+     "k": 26,
      "n": 36,
-     "rate": 0.6944444444444444,
-     "lo": 0.5314342132091627,
-     "hi": 0.8199572971719464
+     "rate": 0.7222222222222222,
+     "lo": 0.5600719978365485,
+     "hi": 0.841518299741862
     },
     "technique_acc_all": {
-     "k": 5,
+     "k": 6,
      "n": 18,
-     "rate": 0.2777777777777778,
-     "lo": 0.12499569146355474,
-     "hi": 0.5087307754619452
+     "rate": 0.3333333333333333,
+     "lo": 0.1627855436366286,
+     "hi": 0.5625093065574964
     },
     "technique_acc_called": {
-     "k": 5,
-     "n": 5,
+     "k": 6,
+     "n": 6,
      "rate": 1.0,
-     "lo": 0.5655085052479191,
-     "hi": 1.0
+     "lo": 0.6096569663469354,
+     "hi": 0.9999999999999999
     },
     "confusion": {
      "malicious": {
-      "needs_human": 12,
+      "needs_human": 11,
       "benign": 1,
-      "malicious": 5
+      "malicious": 6
      },
      "benign": {
-      "benign": 5,
-      "needs_human": 13
+      "benign": 3,
+      "needs_human": 15
      }
     },
     "validity": {
@@ -741,17 +741,17 @@
     },
     "errors": 0,
     "quotes": {
-     "verified": 51,
-     "total": 52
+     "verified": 58,
+     "total": 59
     },
-    "all_live": true,
-    "cost_per_1000": 0.3068388888888888,
-    "total_cost": 0.011046199999999999,
-    "latency_median": 1.8050070999888703,
-    "latency_p95": 4.3775585000403225,
-    "live_alerts": 36,
-    "tokens_in": 36692,
-    "tokens_out": 14754
+    "all_live": false,
+    "cost_per_1000": null,
+    "total_cost": 0.0,
+    "latency_median": null,
+    "latency_p95": null,
+    "live_alerts": 0,
+    "tokens_in": 0,
+    "tokens_out": 0
    },
    "results": [
     {
@@ -765,25 +765,20 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.45133710000664,
-     "cost_usd": 0.0003413,
-     "input_tokens": 993,
-     "output_tokens": 484,
+     "seconds": 0.004861899884417653,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 2,
-     "quotes_total": 2,
-     "rationale": "The command queries OS version and SKU on a domain controller, which resembles system reconnaissance (T1082), but it is also typical of inventory, monitoring, or management scripts run as SYSTEM. No reference material was provided to confirm attacker behaviour, and the alert has no parent process or other context. An analyst should check the parent process and whether this command matches known\u7ba1\u7406 or agent activity on this host.",
+     "cached_calls": 1,
+     "quotes_verified": 1,
+     "quotes_total": 1,
+     "rationale": "The command queries only OS version and SKU via Get-CimInstance, which is common in inventory and health-check scripts, but it runs as NT AUTHORITY\\SYSTEM on a domain controller, where similar host discovery can precede attacker activity. No reference material was supplied, so I cannot tie this to a specific technique in the provided context. The alert lacks parent process and follow-on telemetry, so a human should check whether this matches an expected administrative job on win-dc-235.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "Get-CimInstance Win32_OperatingSystem"
-      },
-      {
-       "source": "alert_field",
-       "ref": "user",
-       "quote": "NT AUTHORITY\\SYSTEM"
+       "quote": "Get-CimInstance Win32_OperatingSystem\" \"| Select-Object\" \"Version, OperatingSystemSKU\""
       }
      ],
      "retrieved": []
@@ -799,20 +794,20 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 4.3775585000403225,
-     "cost_usd": 0.0005256,
-     "input_tokens": 1486,
-     "output_tokens": 754,
+     "seconds": 0.0027602999471127987,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The encoded command decodes (UTF-16LE base64) to a short script that sets StrictMode, runs 'shutdown /r /t 2 /c \"Reboot initiated by Ansible\"', and exits with the last exit code. That is a routine, self-described Ansible reboot task, and it is not a download, credential access, or obfuscated payload. The run as the Administrator account on a domain controller is somewhat sensitive, but the content is consistent with ordinary configuration management, and no reference material was available to contradict this.",
+     "rationale": "The -EncodedCommand payload decodes to Set-StrictMode, then 'shutdown /r /t 2 /c \"Reboot initiated by Ansible\"', then an exit-code check. That is a routine remote reboot issued by an automation tool, not an attack technique, and the alert shows no download, persistence or credential activity. No reference material was provided, so the verdict rests on decoding the command line, and the encoded-command pattern on a domain controller is worth a quick look to confirm the Ansible job was authorized.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "-EncodedCommand UwBlAHQALQBTAHQAcgBpAGMAdABNAG8AZABl"
+       "quote": "-EncodedCommand UwBlAHQALQBTAHQAcgBpAGMAdABNAG8AZABlACAALQBWAGUAcgBzAGkAbwBuACAATABhAHQAZQBzAHQA"
       }
      ],
      "retrieved": []
@@ -824,19 +819,19 @@
      "lookalike_of": null,
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.7,
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 9.17753680003807,
-     "cost_usd": 0.0011258,
-     "input_tokens": 2793,
-     "output_tokens": 1693,
+     "seconds": 0.002723800018429756,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The command line runs PowerShell with a Base64-encoded payload, a common attacker pattern, on a domain controller under an Administrator account. The payload is truncated in the alert and I could only partly decode it, so I cannot see what it does. No reference material was supplied, and administrators also use encoded commands, so a human should decode the full payload and check the parent process and the user's activity before deciding.",
+     "rationale": "The command line runs PowerShell with a base64 -EncodedCommand payload and flags that suppress profiles, prompts and execution policy, a pattern often used to hide activity. The partly decoded text includes a recursive directory listing of C:\\ piped into per-item processing, which could be reconnaissance or ordinary admin work, and the full payload is not in the alert. No reference material was provided, so I cannot tie the behaviour to a specific ATT&CK technique, and the decoded payload should be reviewed before a verdict is set.",
      "evidence": [
       {
        "source": "alert_field",
@@ -857,15 +852,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.7052958998829126,
-     "cost_usd": 0.0002123,
-     "input_tokens": 938,
-     "output_tokens": 237,
+     "seconds": 0.0025849000085145235,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The command runs an existing scheduled task named 'evilTask' on a remote host (10.0.1.15) from a domain controller using the Administrator account, which is consistent with remote task execution used for lateral movement. However, no reference material was provided, and the task name may be a test artifact or legitimate administration, so the evidence is too thin to call it malicious. A human should confirm whether the task and remote host are expected and inspect what the task runs.",
+     "rationale": "The command runs a scheduled task named \"evilTask\" on remote host 10.0.1.15 from a domain controller, which is a pattern consistent with remote task execution for lateral movement or persistence. However, no reference material was provided to match against, and the task name could be a test or admin artifact. A human analyst should check the task's contents and origin on 10.0.1.15 and whether the Administrator account was expected to perform this action.",
      "evidence": [
       {
        "source": "alert_field",
@@ -886,15 +881,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.351208300096914,
-     "cost_usd": 0.000428,
-     "input_tokens": 985,
-     "output_tokens": 659,
+     "seconds": 0.0026136001106351614,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "A scheduled task was force-created (/F) on a domain controller under the Administrator account. It runs a .js script from the world-writable C:\\Users\\Public folder through explorer.exe every 6 minutes, under a generic name, \"Disk Diag\", that suggests disguise. This pattern fits scheduled-task persistence with script execution. No reference material was supplied, so the technique id comes from general ATT&CK knowledge rather than the provided context, and an authorised admin test remains possible.",
+     "rationale": "The command creates a forced (/F) scheduled task on a domain controller that runs a script, Weber0.js, from the world-writable C:\\Users\\Public folder every six minutes, under a generic name, \"Disk Diag,\" meant to look like maintenance. Scheduled-task persistence that executes a script from a user-writable path is a common attacker pattern, and nothing in the alert points to a legitimate purpose. No reference material was supplied, so the technique ID T1053.005 comes from general knowledge rather than the provided context, and the verdict should be confirmed by reviewing the script and task history.",
      "evidence": [
       {
        "source": "alert_field",
@@ -916,20 +911,25 @@
      "lookalike_of": null,
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.4,
+     "confidence": 0.5,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.5099450000561774,
-     "cost_usd": 0.00019140000000000002,
-     "input_tokens": 899,
-     "output_tokens": 203,
+     "seconds": 0.0015767000149935484,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "A scheduled task named \\MordorSchtask was created on WORKSTATION5 by user pgustavo at 03:15 UTC, which could indicate persistence, but the alert gives no task action, trigger, or parent process. No reference material was provided to map the behaviour to an ATT&CK technique. An analyst should check the task's action and creation context before deciding.",
+     "cached_calls": 1,
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "A scheduled task named \\MordorSchtask was created on WORKSTATION5 by user pgustavo at 03:15 UTC, which is an off-hours timestamp that could indicate persistence. However, the alert does not include the task's action, trigger, or creating process, and no reference material was provided to match against, so the alert cannot be confidently judged malicious or benign. A human analyst should check the task definition and whether pgustavo is expected to create tasks on this host.",
      "evidence": [
+      {
+       "source": "alert_field",
+       "ref": "event_type",
+       "quote": "scheduled_task_created"
+      },
       {
        "source": "alert_field",
        "ref": "command_line",
@@ -945,24 +945,24 @@
      "lookalike_of": null,
      "verdict": "malicious",
      "predicted_technique": "T1547.001",
-     "confidence": 0.9,
+     "confidence": 0.95,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.8165271999314427,
-     "cost_usd": 0.0002631,
-     "input_tokens": 1061,
-     "output_tokens": 314,
+     "seconds": 0.004231599858030677,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "A PowerShell process wrote a value named Updater under a user's HKU Run key, so the program will launch at logon. The value runs a hidden, encoded PowerShell command whose payload is read from another registry value (CurrentVersion\\Debug), a pattern typical of fileless persistence. No reference material was supplied, so the technique ID is based on general knowledge of ATT&CK rather than cited context.",
+     "rationale": "The alert writes a Run-key autostart entry named Updater that launches PowerShell, so the program runs at every logon. The value runs a hidden, encoded PowerShell command whose payload is read from another registry value (Debug under HKCU CurrentVersion), a common fileless persistence and obfuscation pattern. No legitimate administrative purpose is evident, and no reference material was supplied, so the technique ID comes from general ATT&CK knowledge rather than the provided context.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "registry HKU\\S-1-5-21-3125456671-949036322-3048627137-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Updater"
+       "quote": "registry HKU\\S-1-5-21-3125456671-949036322-3048627137-1104\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Updater = \"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\""
       },
       {
        "source": "alert_field",
@@ -979,19 +979,19 @@
      "lookalike_of": null,
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.5,
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 2.576135399984196,
-     "cost_usd": 0.0003379,
-     "input_tokens": 999,
-     "output_tokens": 476,
+     "seconds": 0.0022774001117795706,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The command silently deletes a value under the RunOnceEx registry key, which is a persistence location and could indicate cleanup after persistence was set up. RunOnceEx Depend entries are also used by legitimate Windows component and software installers, so this could be routine. No reference material was provided, and the alert has no information on the parent process, prior activity, or the software involved. An analyst should check the parent process and whether a related installation or update ran on win-dc-942 around this time.",
+     "rationale": "The command silently deletes a RunOnceEx registry value on a domain controller, with output suppressed and no parent process or follow-on activity shown. RunOnceEx Depend entries are also commonly created and removed by legitimate installers and updates, so the alert does not clearly indicate abuse or routine admin. No reference material was provided to map this to an ATT&CK technique, so a human should check the change against expected software or update activity on this host.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1006,21 +1006,21 @@
      "label": "malicious",
      "technique": "T1547.001",
      "lookalike_of": null,
-     "verdict": "needs_human",
-     "predicted_technique": null,
-     "confidence": 0.6,
+     "verdict": "malicious",
+     "predicted_technique": "T1547.001",
+     "confidence": 0.75,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.9081028001382947,
-     "cost_usd": 0.0002498,
-     "input_tokens": 963,
-     "output_tokens": 307,
+     "seconds": 0.0021399001125246286,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The alert shows reg.exe writing a DLL path into a RunOnceEx key under HKLM, which is a persistence-style autostart location and is commonly abused. However, the DLL is named AtomicRedTeam.dll, which suggests an Atomic Red Team test or other authorized simulation, and no reference material was provided to confirm technique mapping. Because the evidence is thin and the context could be a sanctioned test, a human analyst should confirm whether this was an authorized run.",
+     "rationale": "reg.exe wrote a DLL path into a RunOnceEx key under HKLM on a domain controller, which would run that DLL at the next logon and is a common persistence pattern. No reference material was provided, so the technique mapping comes from general knowledge rather than the context. The DLL name references Atomic Red Team, a publicly used test framework, so this may be an authorized simulation, but the alert alone does not show that.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1041,20 +1041,20 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.89584599994123,
-     "cost_usd": 0.00046560000000000004,
-     "input_tokens": 996,
-     "output_tokens": 732,
+     "seconds": 0.0034151000436395407,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The command runs procdump to write a full memory dump of lsass.exe to a file in C:\\Windows\\Temp, which is credential dumping from LSASS memory. The no-reference context means I rely only on the alert fields. The binary name differs between the process field (procdump64.exe) and the command line (procdump.exe), and the Atomic Red Team path suggests a planned test, so a human should confirm whether this was an authorized simulation.",
+     "rationale": "procdump is run with -ma against lsass.exe and writes a full memory dump to C:\\Windows\\Temp on a domain controller, which is the LSASS credential-dumping pattern for T1003.001. No reference material was supplied, so the technique id comes from my own knowledge rather than the context. The Atomic Red Team path suggests this may be an authorized test, which should be confirmed with the team, but the alert gives no sign of that.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "-ma lsass.exe C:\\Windows\\Temp\\lsass_dump.dmp"
+       "quote": "C:\\AtomicRedTeam\\atomics\\T1003.001\\bin\\procdump.exe  -accepteula -ma lsass.exe C:\\Windows\\Temp\\lsass_dump.dmp"
       },
       {
        "source": "alert_field",
@@ -1075,44 +1075,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 2.6173485999461263,
-     "cost_usd": 0.000244,
-     "input_tokens": 975,
-     "output_tokens": 293,
+     "seconds": 0.0015635001473128796,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 0,
-     "quotes_total": 1,
-     "rationale": "The command invokes comsvcs.dll MiniDump via rundll32 against process ID 756 with a full dump written to a temp directory, which is the well-known method for dumping LSASS memory to harvest credentials. No legitimate administrative reason for this pattern is apparent. Reference material was not provided, so the technique mapping rests on the alert content and general knowledge of ATT&CK T1003.001 (LSASS Memory).",
-     "evidence": [
-      {
-       "source": "alert_field",
-       "ref": "command_line",
-       "quote": "rundll32.exe C:\\windows\\System32\\comsvcs.dll MiniDump 756 C:\\Users\\wardog\\AppData\\Local\\Temp\\lsass-comsvcs.dmp full"
-      }
-     ],
-     "retrieved": []
-    },
-    {
-     "id": "mal-T1003.001-03",
-     "label": "malicious",
-     "technique": "T1003.001",
-     "lookalike_of": null,
-     "verdict": "malicious",
-     "predicted_technique": "T1003.001",
-     "confidence": 0.95,
-     "model_verdict": null,
-     "status": "ok",
-     "reason": null,
-     "seconds": 3.608669900102541,
-     "cost_usd": 0.00039789999999999997,
-     "input_tokens": 984,
-     "output_tokens": 599,
-     "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The command invokes the MiniDump export of comsvcs.dll through rundll32, which writes a full process memory dump to a temp directory. The output filename 'lsass-comsvcs.dmp' indicates the target is LSASS, a well-known method for dumping credentials. No reference material was supplied, so the technique mapping relies on general ATT&CK knowledge rather than a cited context entry; the alert contains no sign of legitimate administration, though the target PID should be confirmed as LSASS.",
+     "rationale": "rundll32 is calling the comsvcs.dll MiniDump export to write a full memory dump to a temp file named lsass-comsvcs.dmp, which is a well-known way of dumping LSASS credentials (T1003.001). No reference material was supplied, so the technique mapping is from general knowledge rather than the context. Nothing in the alert suggests legitimate administration, and the PID is not shown to be LSASS, but the dump name and target strongly point to credential theft.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1128,30 +1099,64 @@
      "retrieved": []
     },
     {
+     "id": "mal-T1003.001-03",
+     "label": "malicious",
+     "technique": "T1003.001",
+     "lookalike_of": null,
+     "verdict": "malicious",
+     "predicted_technique": "T1003.001",
+     "confidence": 0.95,
+     "model_verdict": null,
+     "status": "ok",
+     "reason": null,
+     "seconds": 0.0012614999432116747,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "calls": 1,
+     "cached_calls": 1,
+     "quotes_verified": 0,
+     "quotes_total": 1,
+     "rationale": "The command invokes comsvcs.dll MiniDump via rundll32 against process ID 756, which is the widely documented way to dump LSASS memory for credential theft. The output file is written to a user Temp directory with an lsass-named filename, which is consistent with staging stolen credentials. No reference material was supplied, so the technique mapping relies on general ATT&CK knowledge rather than a provided context item, and the alert does not show legitimate administrative context.",
+     "evidence": [
+      {
+       "source": "alert_field",
+       "ref": "command_line",
+       "quote": "rundll32.exe C:\\windows\\System32\\comsvcs.dll MiniDump 756 C:\\Users\\wardog\\AppData\\Local\\Temp\\lsass-comsvcs.dmp full"
+      }
+     ],
+     "retrieved": []
+    },
+    {
      "id": "mal-T1021.002-01",
      "label": "malicious",
      "technique": "T1021.002",
      "lookalike_of": null,
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.4,
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.5241515999659896,
-     "cost_usd": 0.00019860000000000003,
-     "input_tokens": 911,
-     "output_tokens": 215,
+     "seconds": 0.0015708000864833593,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "The alert shows access to the administrative C$ share on WORKSTATION6 targeting the ProgramData folder, which can indicate lateral movement or file staging over SMB. However, administrative tools and IT staff also legitimately use C$ access, and no reference material was provided to confirm the technique. Without further context on the user's role, source host, and whether this access was expected, a human analyst should review it.",
+     "cached_calls": 1,
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "The alert shows user pgustavo accessing the administrative share C$ on WORKSTATION6 from 172.18.39.5, which can indicate lateral movement or file staging. However, no reference material was supplied, so I cannot match the behaviour to a technique, and administrative share access is also common in routine administration. A human should confirm whether pgustavo is expected to administer this host and check for related activity.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "share \\\\*\\C$ file ProgramData"
+      },
+      {
+       "source": "alert_field",
+       "ref": "event_type",
+       "quote": "network_share_access"
       }
      ],
      "retrieved": []
@@ -1167,15 +1172,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.4077425000723451,
-     "cost_usd": 0.0001884,
-     "input_tokens": 904,
-     "output_tokens": 196,
+     "seconds": 0.00404040003195405,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The alert shows a user accessing an administrative C$ share on a workstation, which can indicate lateral movement, but it can also be routine IT administration or support activity. No reference material was provided to confirm a specific technique. Without knowing whether pgustavo normally performs this access from src_ip 172.18.39.5, a human should verify the account's role and the source host.",
+     "rationale": "The alert shows user pgustavo connecting from 172.18.39.5 to the administrative C$ share on WORKSTATION6, which can indicate lateral movement over SMB but is also common for administrators and support tools. No reference material was provided to confirm a technique, and the alert lacks context such as the user's role, the source host, or follow-on activity. The evidence points both ways, so a human analyst should review it.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1192,24 +1197,29 @@
      "lookalike_of": null,
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.5,
+     "confidence": 0.7,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.3681365000084043,
-     "cost_usd": 0.0002047,
-     "input_tokens": 922,
-     "output_tokens": 225,
+     "seconds": 0.0020665000192821026,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "The command line references an administrative share (C$) and a file named GruntHTTP.exe in ProgramData, which is suspicious and resembles known C2 implant naming. However, no reference material was provided to confirm a specific ATT&CK technique, and the alert does not show whether the file was actually written or executed. A human analyst should verify the file, the source host, and the user's authorization before concluding.",
+     "cached_calls": 1,
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "The command shows access to the administrative share C$ on WORKSTATION6 with a file path under ProgramData named GruntHTTP.exe, which looks suspicious because it resembles a remote file drop. No ATT&CK or Sigma reference material was provided, so I cannot match the behaviour to a technique in the reference set. An analyst should confirm whether pgustavo or src_ip 172.18.39.5 is expected to write to this path and check the file's hash and origin.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "share \\\\*\\C$ file ProgramData\\GruntHTTP.exe"
+      },
+      {
+       "source": "alert_field",
+       "ref": "event_type",
+       "quote": "network_share_access"
       }
      ],
      "retrieved": []
@@ -1221,19 +1231,19 @@
      "lookalike_of": null,
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.6,
+     "confidence": 0.5,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 2.408920200075954,
-     "cost_usd": 0.0002213,
-     "input_tokens": 908,
-     "output_tokens": 261,
+     "seconds": 0.0023087000008672476,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "A logon failure for user sbeavers on WORKSTATION5 was generated by PurpleSharp.exe, a known adversary-simulation tool, run from a user's Downloads folder. This could be an authorized red team or purple team exercise, or a password-spraying attempt by an intruder. No reference material was provided to confirm technique mapping, so a human should check whether the activity was sanctioned.",
+     "rationale": "No reference material was supplied, so no ATT&CK or Sigma item can be cited. The process is an executable run from a user's Downloads folder, and PurpleSharp is an adversary simulation tool, which could be an authorized red-team exercise or a real password-guessing attempt against user sbeavers. The alert does not show how many failures occurred or any follow-on logon success, so the intent cannot be determined from this alert alone and a human should check whether the activity was sanctioned.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1259,25 +1269,25 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.7504400999750942,
-     "cost_usd": 0.0002358,
-     "input_tokens": 908,
-     "output_tokens": 290,
+     "seconds": 0.003465200075879693,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "A logon failure for user pbeesly was recorded from PurpleSharp.exe, an adversary-simulation tool, run from a user's Downloads folder on WORKSTATION5. No reference material was supplied, so no ATT&CK or Sigma technique can be cited with confidence. The execution could be an authorized red-team or test exercise, or it could be an attacker-run tool, and the alert alone cannot separate these; an analyst should confirm whether this was sanctioned testing.",
+     "rationale": "The context contains no ATT&CK or Sigma reference material, so I cannot tie this alert to a specific technique. The logon failure for user pbeesly was caused by a process named PurpleSharp.exe run from a user's Downloads folder, which resembles an adversary-simulation tool but could also be authorized testing. The alert does not show the parent process or any follow-on activity, so a human analyst should confirm whether this execution was sanctioned.",
      "evidence": [
-      {
-       "source": "alert_field",
-       "ref": "process",
-       "quote": "C:\\Users\\pgustavo\\Downloads\\PurpleSharp.exe"
-      },
       {
        "source": "alert_field",
        "ref": "event_type",
        "quote": "logon_failure"
+      },
+      {
+       "source": "alert_field",
+       "ref": "process",
+       "quote": "C:\\Users\\pgustavo\\Downloads\\PurpleSharp.exe"
       }
      ],
      "retrieved": []
@@ -1293,15 +1303,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.7127239000983536,
-     "cost_usd": 0.000231,
-     "input_tokens": 910,
-     "output_tokens": 280,
+     "seconds": 0.0012976001016795635,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 2,
-     "quotes_total": 2,
-     "rationale": "A logon failure for account nxlogsvc occurred while PurpleSharp.exe, an adversary simulation tool, was run from a user's Downloads folder on WORKSTATION5. This could be an authorized purple-team exercise or an attacker testing credentials, and no reference material was provided to confirm either. The alert does not establish whether the activity was sanctioned, so a human should check whether the exercise was approved and whether the account is a legitimate service account.",
+     "cached_calls": 1,
+     "quotes_verified": 3,
+     "quotes_total": 3,
+     "rationale": "The process name matches PurpleSharp, an adversary-simulation tool, run from a user's Downloads folder against a service-style account, which is consistent with credential-guessing activity. No reference material was provided to confirm a technique, and a single failed logon with no follow-on telemetry or confirmation of an authorized purple-team exercise cannot separate testing from abuse. An analyst should confirm whether this was sanctioned testing on WORKSTATION5 and check nearby logon failures for a spraying pattern.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1312,6 +1322,11 @@
        "source": "alert_field",
        "ref": "event_type",
        "quote": "logon_failure"
+      },
+      {
+       "source": "alert_field",
+       "ref": "user",
+       "quote": "nxlogsvc"
       }
      ],
      "retrieved": []
@@ -1323,24 +1338,29 @@
      "lookalike_of": "T1059.001",
      "verdict": "benign",
      "predicted_technique": null,
-     "confidence": 0.6,
+     "confidence": 0.7,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.6040889997966588,
-     "cost_usd": 0.0002246,
-     "input_tokens": 976,
-     "output_tokens": 254,
+     "seconds": 0.0012650999706238508,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "The command runs a local IT script from a scheduled-looking path with a RemoteSigned execution policy, which is a common administrative pattern. The user is an operations admin account on an application server, and nothing in the alert shows download cascades, encoding, or suspicious parent processes. No reference material was provided to confirm the script's legitimacy, so the analyst should verify the script's source and change history before closing.",
+     "cached_calls": 1,
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "The command runs a named script from an IT scripts directory under an operations administrator account with a RemoteSigned execution policy, which is consistent with routine administrative automation. Nothing in the alert shows encoded content, download cascades, or other abuse indicators. No reference material was provided, so confidence is moderate and the parent process and the script's contents are unverified.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File D:\\IT\\scripts\\Sync-AD-Groups.ps1"
+      },
+      {
+       "source": "alert_field",
+       "ref": "user",
+       "quote": "CORP\\adm-ops"
       }
      ],
      "retrieved": []
@@ -1350,31 +1370,31 @@
      "label": "benign",
      "technique": null,
      "lookalike_of": "T1059.001",
-     "verdict": "benign",
+     "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.7,
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.793487000046298,
-     "cost_usd": 0.00022869999999999998,
-     "input_tokens": 962,
-     "output_tokens": 265,
+     "seconds": 0.001443800050765276,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The process is a PowerShell run by a patching service account executing a named update script from an IT scripts directory, which matches routine patch administration. No reference material was supplied to confirm or rule out technique matches, and the script's contents were not available to inspect. Confidence is moderate, and a quick check that the script is an approved, unmodified patch tool would firm up the verdict.",
+     "rationale": "The command runs a script from an IT scripts directory under a patch service account, which looks like routine update administration. No reference material was provided to confirm a technique match, and the alert lacks parent process and follow-on telemetry needed to confirm the script is the expected, unmodified one. A human should confirm the script's ownership and change history before closing it.",
      "evidence": [
-      {
-       "source": "alert_field",
-       "ref": "user",
-       "quote": "CORP\\svc-patch"
-      },
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "powershell.exe -NonInteractive -NoLogo -File D:\\IT\\scripts\\Install-Updates.ps1"
+      },
+      {
+       "source": "alert_field",
+       "ref": "user",
+       "quote": "CORP\\svc-patch"
       }
      ],
      "retrieved": []
@@ -1390,15 +1410,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.5007291999645531,
-     "cost_usd": 0.00023469999999999999,
-     "input_tokens": 972,
-     "output_tokens": 275,
+     "seconds": 0.005030500004068017,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The command runs a local IT script (Check-Disk.ps1) from an internal IT scripts directory under an IT administrator account, with a RemoteSigned execution policy that is a common administrative setting. Nothing in the fields shows encoded commands, download cradles, or suspicious parent processes. No reference material was provided, so confidence is moderate rather than high.",
+     "rationale": "The command runs a named disk-check script from an IT scripts directory under an IT administrator account, which looks like routine administration. The execution policy is RemoteSigned, which is a normal setting and does not bypass controls, and there are no encoded commands, download cascades, or unusual parents in the alert. No reference material was supplied, so confidence is moderate rather than high.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1420,19 +1440,19 @@
      "lookalike_of": "T1053.005",
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.5,
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 2.6737454999238253,
-     "cost_usd": 0.0003369,
-     "input_tokens": 984,
-     "output_tokens": 477,
+     "seconds": 0.0030557001009583473,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The command creates a weekly task that runs as SYSTEM under an IT-style name and a plausible BackupAgent path, which fits either scheduled administration or scheduled-task persistence. The task is created on an HR workstation by the admin account adm-it2, which is unusual but not conclusive. No reference material was supplied, so the alert cannot be matched to a technique, and an analyst should confirm the task owner, the binary's signature and hash, and whether a change request exists.",
+     "rationale": "No reference material was provided, so I cannot match this activity to a specific ATT&CK technique or Sigma rule. The command creates a weekly task running as SYSTEM on an HR workstation, which resembles scheduled-task persistence (T1053.005), but it also resembles routine patch or backup administration by an IT admin account. The alert lacks the parent process and any follow-on activity needed to tell these apart, so a human should verify the task's purpose and the adm-it2 account's authorization.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1453,15 +1473,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.1268553000409156,
-     "cost_usd": 0.0003348,
-     "input_tokens": 988,
-     "output_tokens": 472,
+     "seconds": 0.0039889998733997345,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "A scheduled task running as SYSTEM is a common persistence pattern, but the task name, the IT tools path, and the weekly schedule are consistent with routine administration. No reference material was supplied to confirm or rule out either reading. The task's binary and the svc-patch account's expected activity should be checked by a person before deciding.",
+     "rationale": "The alert creates a weekly scheduled task that runs as SYSTEM and points to an executable in C:\\IT\\tools, which could be routine IT maintenance or scheduled-task persistence. The account is a patch service account, which fits administrative use but is also a common abuse path, and no reference material was provided to check against. Parent process, the binary's reputation, and whether a change ticket exists are not in the alert, so a human should verify them.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1487,20 +1507,25 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.6084722999949008,
-     "cost_usd": 0.00024260000000000002,
-     "input_tokens": 976,
-     "output_tokens": 290,
+     "seconds": 0.0016427000518888235,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "A scheduled task running as SYSTEM that launches a script from a local IT tools directory is a common persistence pattern, but the task name, path and account are consistent with routine IT maintenance by an admin account (adm-it2). No reference material was provided to confirm or rule out the technique, and the alert alone does not show whether the task or cleanup.cmd was authorised. A human should verify the change ticket and the contents of cleanup.cmd.",
+     "cached_calls": 1,
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "The command creates a daily scheduled task running as SYSTEM that launches a script from C:\\IT\\tools, which is a persistence-style pattern but also plausible for IT maintenance. The user name suggests an IT admin account, yet no reference material was provided, so I cannot check this against known techniques or detections. A human should confirm whether IT Operations authorized the PatchScan/cleanup task and that cleanup.cmd is the expected file.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "schtasks.exe /Create /TN \"IT\\PatchScan\" /TR \"C:\\IT\\tools\\cleanup.cmd\" /SC DAILY /ST 23:15 /RU SYSTEM"
+      },
+      {
+       "source": "alert_field",
+       "ref": "user",
+       "quote": "CORP\\adm-it2"
       }
      ],
      "retrieved": []
@@ -1512,29 +1537,24 @@
      "lookalike_of": "T1021.002",
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.5,
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.628804799867794,
-     "cost_usd": 0.00022830000000000002,
-     "input_tokens": 928,
-     "output_tokens": 271,
+     "seconds": 0.0015110999811440706,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 2,
-     "quotes_total": 2,
-     "rationale": "The alert shows a service account writing an executable to the administrative C$ share of WS-ACCT-014, which resembles lateral tool transfer. However, svc-sccm is a plausible SCCM service account and SCCM legitimately pushes packages through admin shares, so this could be routine deployment. No reference material was provided to confirm either reading, so an analyst should verify the SCCM deployment schedule and the package's hash.",
+     "cached_calls": 1,
+     "quotes_verified": 1,
+     "quotes_total": 1,
+     "rationale": "The alert shows the service account svc-sccm writing an executable (sccm_pkg.exe) to the administrative share C$ on WS-ACCT-014, which resembles lateral tool transfer over SMB. The same pattern is also what an SCCM client push or package deployment would produce, and no reference material was supplied to test it against. Without the deployment schedule, the source host's identity, or follow-on process activity, the evidence points both ways and a human should check whether this SCCM push was authorized.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "share \\\\*\\C$ file Windows\\Temp\\sccm_pkg.exe"
-      },
-      {
-       "source": "alert_field",
-       "ref": "user",
-       "quote": "svc-sccm"
       }
      ],
      "retrieved": []
@@ -1550,15 +1570,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.913683099905029,
-     "cost_usd": 0.0002352,
-     "input_tokens": 927,
-     "output_tokens": 285,
+     "seconds": 0.005166999995708466,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 2,
-     "quotes_total": 2,
-     "rationale": "The alert shows a service account (svc-sccm) accessing an administrative share (D$) on a workstation and referencing an executable staged in a Temp directory, which could be SCCM package distribution or lateral movement with a copied payload. No reference material was provided to confirm either interpretation, and the 04:24 UTC timing is not clearly tied to a known maintenance window. The analyst should verify whether this SCCM account and package push are expected for WS-OPS-031.",
+     "cached_calls": 1,
+     "quotes_verified": 3,
+     "quotes_total": 3,
+     "rationale": "The alert shows the svc-sccm account copying an executable over the administrative D$ share into Windows\\Temp on WS-OPS-031, which could be routine SCCM package distribution or lateral movement using a service account. No reference material was provided, and the alert does not include the parent process or the source host's activity, so the context cannot be checked. A human should confirm whether an SCCM distribution job or change record covers this copy at 04:24 UTC.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1569,6 +1589,11 @@
        "source": "alert_field",
        "ref": "user",
        "quote": "svc-sccm"
+      },
+      {
+       "source": "alert_field",
+       "ref": "timestamp",
+       "quote": "2026-10-25 04:24:00.016000+00:00"
       }
      ],
      "retrieved": []
@@ -1584,20 +1609,25 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.4110460998490453,
-     "cost_usd": 0.0002074,
-     "input_tokens": 924,
-     "output_tokens": 230,
+     "seconds": 0.002509899903088808,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "The alert shows a service account (svc-sccm) accessing an administrative C$ share on SRV-APP-03 and a Finance file at 00:48 UTC. This could be legitimate SCCM management or lateral movement and collection, but no reference material was provided and the alert does not show which is more likely. A human analyst should verify whether svc-sccm is expected to touch this host and Finance share at this time.",
+     "cached_calls": 1,
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "The alert shows a service account accessing an administrative C$ share and a Finance file at 00:48 UTC, which could be lateral movement or data access. The service account name suggests SCCM tooling, which could explain it, but no reference material was provided to confirm the technique. A human should check whether svc-sccm is expected to touch this share and this file at this time.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "share \\\\*\\C$ file Shares\\Finance\\q3.xlsx"
+      },
+      {
+       "source": "alert_field",
+       "ref": "user",
+       "quote": "svc-sccm"
       }
      ],
      "retrieved": []
@@ -1609,29 +1639,29 @@
      "lookalike_of": "T1110",
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.6,
+     "confidence": 0.4,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.7820692001841962,
-     "cost_usd": 0.000216,
-     "input_tokens": 895,
-     "output_tokens": 253,
+     "seconds": 0.0030427000019699335,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "A single logon failure for svc-nessus, a name that suggests a Nessus vulnerability scanner service account, could be a scheduled scan with a stale or rotated credential, or could be password guessing against that account. The alert does not show repeated failures, a success after failures, or any reference material to confirm either reading. A human should check whether a scan was scheduled from 10.20.9.50 at 02:06 UTC and whether the account's credentials changed recently.",
+     "rationale": "A single failed logon by svc-nessus, a service account whose name suggests a Nessus vulnerability scanner, could be routine scanning or a credential-guessing attempt. The alert has no reference material, no failure count, and no logon type or follow-on activity, so the evidence points both ways. An analyst should confirm whether a scan was scheduled from 10.20.9.50 at 02:06 UTC and check for repeated failures or successful logons.",
      "evidence": [
-      {
-       "source": "alert_field",
-       "ref": "user",
-       "quote": "svc-nessus"
-      },
       {
        "source": "alert_field",
        "ref": "event_type",
        "quote": "logon_failure"
+      },
+      {
+       "source": "alert_field",
+       "ref": "user",
+       "quote": "svc-nessus"
       }
      ],
      "retrieved": []
@@ -1647,25 +1677,20 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.4545626000035554,
-     "cost_usd": 0.0002135,
-     "input_tokens": 910,
-     "output_tokens": 245,
+     "seconds": 0.0017661000601947308,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 2,
-     "quotes_total": 2,
-     "rationale": "A single logon failure for user alee on WS-HR-007 at 22:33 UTC is consistent with a mistyped password, but it could also be the start of password guessing. The alert contains no reference material, no count of repeated failures, and no failure reason, so there is not enough evidence to call it malicious or benign. An analyst should check recent failure counts for this account and source IP and confirm whether alee was logging on at that time.",
+     "cached_calls": 1,
+     "quotes_verified": 1,
+     "quotes_total": 1,
+     "rationale": "The alert records a single logon failure for user alee on WS-HR-007 from 10.20.2.140 at 22:33 UTC, processed by winlogon.exe. No reference material was supplied, and the alert lacks follow-on telemetry such as repeated attempts, lockout events or the source workstation's activity, so it cannot be classified as credential abuse or as routine mistyping. A human analyst should check whether the failure repeats and whether the source IP is expected for this user.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "event_type",
        "quote": "logon_failure"
-      },
-      {
-       "source": "alert_field",
-       "ref": "src_ip",
-       "quote": "10.20.2.140"
       }
      ],
      "retrieved": []
@@ -1677,19 +1702,19 @@
      "lookalike_of": "T1110",
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.3,
+     "confidence": 0.4,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.2801715000532568,
-     "cost_usd": 0.0001905,
-     "input_tokens": 915,
-     "output_tokens": 198,
+     "seconds": 0.0013592999894171953,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The alert records a single logon failure for user tnguyen on SRV-FILE-01 from 10.20.3.105, which could be a mistyped password or a password-guessing attempt. No reference material was provided and the alert has no count, prior events, or other context to distinguish these cases. An analyst should check whether this is part of a repeated failure pattern for the account and confirm the source host.",
+     "rationale": "The alert records a single logon failure for user tnguyen on SRV-FILE-01 from 10.20.3.105, which could be a mistyped password or a password-guessing attempt. No reference material was provided, and the alert has no failure count, logon type, or follow-on activity to separate these cases. A human analyst should check recent failure volume for this account and source.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1710,20 +1735,20 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.429991800105199,
-     "cost_usd": 0.0004097,
-     "input_tokens": 987,
-     "output_tokens": 622,
+     "seconds": 0.001321100164204836,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The alert shows a SYSTEM-level process writing an autostart Run key that launches an executable from the user-writable C:\\Users\\Public folder under a Teams-like name, which is a common persistence pattern. However, no reference material was provided, and an installer-driven Teams update could also produce this entry. The evidence is not sufficient to confirm malicious activity, so an analyst should check the file's signature, hash, and origin.",
+     "rationale": "A SYSTEM-context process wrote an HKLM Run autostart entry pointing to an executable in the world-writable C:\\Users\\Public folder under a Teams name, which resembles persistence and masquerading. No reference material was supplied, so I cannot match the behaviour to a technique in context. The setup.exe and Update.exe names could also belong to a legitimate installer, so an analyst should check the file's signature, hash and origin.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\Teams = C:\\Users\\Public\\Teams\\Update.exe --processStart Teams.exe"
+       "quote": "registry HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\Teams = C:\\Users\\Public\\Teams\\Update.exe --processStart Teams.exe"
       },
       {
        "source": "alert_field",
@@ -1740,24 +1765,29 @@
      "lookalike_of": "T1547.001",
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.4,
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.5764350998215377,
-     "cost_usd": 0.0002313,
-     "input_tokens": 988,
-     "output_tokens": 265,
+     "seconds": 0.005449100164696574,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "The alert shows a SYSTEM-context process writing an autostart Run key on a backup server, which matches a persistence pattern, but the value points to a standard Zoom binary in its usual install path. No reference material was provided to confirm or rule out the technique. A human should check whether Zoom is authorized on this server and whether setup.exe is a legitimate installer.",
+     "cached_calls": 1,
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "A SYSTEM-level setup.exe wrote an autostart value under HKLM Run, which is a common persistence location (ATT&CK T1547.001 would apply if abused), but the value points to a standard Zoom install path with a normal-looking autostart argument. Running an unexpected autostart entry from a generic installer on a backup server is unusual, so it warrants a human check of the setup.exe binary, its signature, and whether Zoom was deployed to this host. No reference material was supplied, so I could not cite ATT&CK or Sigma items.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "registry HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\Zoom = C:\\Program Files\\Zoom\\bin\\Zoom.exe --autostart"
+      },
+      {
+       "source": "alert_field",
+       "ref": "process",
+       "quote": "C:\\Program Files\\Common Files\\Update\\setup.exe"
       }
      ],
      "retrieved": []
@@ -1769,24 +1799,29 @@
      "lookalike_of": "T1547.001",
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.6,
+     "confidence": 0.7,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 4.661658099852502,
-     "cost_usd": 0.00043589999999999997,
-     "input_tokens": 984,
-     "output_tokens": 675,
+     "seconds": 0.002334499964490533,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "The alert shows a Run-key autostart entry on a file server, set by msiexec as SYSTEM, that points to an executable in the world-writable C:\\Users\\Public folder and uses the name Teams. That pattern fits persistence, but it can also come from a legitimate MSI deployment. No reference material was supplied, so I cannot confirm the binary's signature, the installing package, or whether a change ticket covers it. An analyst should check the file's hash and signer and the msiexec source before deciding.",
+     "cached_calls": 1,
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "A machine-wide Run key on a file server, set by msiexec as SYSTEM, points to an executable in the user-writable C:\\Users\\Public folder, which is a persistence pattern worth checking. No reference material was supplied, so I cannot match the behaviour to a technique in context, and the alert has no parent process or follow-on activity. An administrator could have deployed this legitimately, so the binary's hash, signature and install source should be verified by an analyst.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\Teams = C:\\Users\\Public\\Teams\\Update.exe --processStart Teams.exe"
+       "quote": "registry HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\Teams = C:\\Users\\Public\\Teams\\Update.exe --processStart Teams.exe"
+      },
+      {
+       "source": "alert_field",
+       "ref": "process",
+       "quote": "C:\\Windows\\System32\\msiexec.exe"
       }
      ],
      "retrieved": []
@@ -1802,15 +1837,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.6745938998647034,
-     "cost_usd": 0.0003714,
-     "input_tokens": 944,
-     "output_tokens": 554,
+     "seconds": 0.0025652998592704535,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The accessing process is the CrowdStrike Falcon service running from its standard install path as SYSTEM, and EDR agents routinely open LSASS for monitoring. The access mask 0x1410 is consistent with read-only inspection rather than credential dumping, though 0x1410 alone does not prove the access is legitimate. No reference material was provided to corroborate this, so confidence is moderate and a quick check of the binary's signature and the host's CrowdStrike deployment status is advisable.",
+     "rationale": "The accessing process is the CrowdStrike Falcon service running from its standard Program Files path, and EDR agents routinely open LSASS for protection and monitoring. No reference material was supplied, so this relies on general knowledge of Falcon behaviour rather than matched context. Confidence is tempered because LSASS access is a credential-theft indicator and a masquerading binary could look the same; verifying the file's signature and hash would firm this up.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1831,20 +1866,20 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.6862027999013662,
-     "cost_usd": 0.0002392,
-     "input_tokens": 947,
-     "output_tokens": 289,
+     "seconds": 0.0025609000585973263,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "A process handle opened to lsass.exe with access mask 0x1010 is a pattern commonly associated with credential dumping, but the accessing process is VMware Tools running as SYSTEM, which is a legitimate service that can query LSASS. No reference material was provided to confirm or rule out the behaviour, so the verdict cannot be made with confidence. An analyst should verify the vmtoolsd.exe binary path and signature and check whether this access is expected on WS-HR-007.",
+     "rationale": "A VMware Tools process requesting access to lsass.exe with mask 0x1010 (query limited information plus VM read) is unusual and matches the access pattern of credential-dumping tools, but no reference material was supplied to confirm a technique. The alert also lacks the parent process, signer, and any follow-on activity needed to tell a legitimate VMware or security agent apart from abuse. A human analyst should verify the binary's path and signature and check whether this access recurs on other hosts.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe accessed C:\\Windows\\System32\\lsass.exe access=0x1010"
+       "quote": "vmtoolsd.exe accessed C:\\Windows\\System32\\lsass.exe access=0x1010"
       }
      ],
      "retrieved": []
@@ -1854,21 +1889,21 @@
      "label": "benign",
      "technique": null,
      "lookalike_of": "T1003.001",
-     "verdict": "benign",
+     "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.8,
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.9462776000145823,
-     "cost_usd": 0.000403,
-     "input_tokens": 950,
-     "output_tokens": 616,
+     "seconds": 0.001371599966660142,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 1,
      "quotes_total": 1,
-     "rationale": "The accessing process is the Microsoft Defender for Endpoint sensor (MsSense.exe) running from its standard installation path under SYSTEM, which is expected EDR behaviour when it inspects LSASS. No reference material was supplied, so I could not check the binary's signature or the access pattern against known baselines. Confidence is held below 0.9 because a spoofed binary name in a non-standard location would look similar, and the path shown here appears to be the legitimate one.",
+     "rationale": "The accessing process is named as the Microsoft Defender for Endpoint sensor from its Program Files path, which is consistent with legitimate security tooling. However, access mask 0x1010 (VM read plus limited query) on lsass.exe is also the pattern used for credential dumping, and no reference material was provided. The alert does not include the binary's signature, parent process, or any follow-on activity needed to confirm the sensor is authentic and unmodified, so a human analyst should verify it.",
      "evidence": [
       {
        "source": "alert_field",
@@ -1886,82 +1921,82 @@
     "n_malicious": 18,
     "n_benign": 18,
     "recall_plan": {
-     "k": 18,
+     "k": 16,
      "n": 18,
-     "rate": 1.0,
-     "lo": 0.8241154494176252,
-     "hi": 1.0
+     "rate": 0.8888888888888888,
+     "lo": 0.6719975513339578,
+     "hi": 0.9689811315464172
     },
     "recall_strict": {
-     "k": 9,
+     "k": 16,
      "n": 18,
-     "rate": 0.5,
-     "lo": 0.2903070395897999,
-     "hi": 0.7096929604102
+     "rate": 0.8888888888888888,
+     "lo": 0.6719975513339578,
+     "hi": 0.9689811315464172
     },
     "benign_fpr": {
-     "k": 2,
+     "k": 3,
      "n": 18,
-     "rate": 0.1111111111111111,
-     "lo": 0.031018868453582787,
-     "hi": 0.3280024486660421
+     "rate": 0.16666666666666666,
+     "lo": 0.05836470400465757,
+     "hi": 0.39222499638359243
     },
     "benign_auto_closed": {
-     "k": 6,
+     "k": 7,
      "n": 18,
-     "rate": 0.3333333333333333,
-     "lo": 0.1627855436366286,
-     "hi": 0.5625093065574964
+     "rate": 0.3888888888888889,
+     "lo": 0.20304991926931162,
+     "hi": 0.6138133141934384
     },
     "needs_human_rate": {
-     "k": 19,
+     "k": 8,
      "n": 36,
-     "rate": 0.5277777777777778,
-     "lo": 0.3700567162693947,
-     "hi": 0.6801420709279067
+     "rate": 0.2222222222222222,
+     "lo": 0.11716192974839595,
+     "hi": 0.38085019827859085
     },
     "technique_acc_all": {
-     "k": 9,
+     "k": 16,
      "n": 18,
-     "rate": 0.5,
-     "lo": 0.2903070395897999,
-     "hi": 0.7096929604102
+     "rate": 0.8888888888888888,
+     "lo": 0.6719975513339578,
+     "hi": 0.9689811315464172
     },
     "technique_acc_called": {
-     "k": 9,
-     "n": 9,
+     "k": 16,
+     "n": 16,
      "rate": 1.0,
-     "lo": 0.7008472464490407,
+     "lo": 0.8063865817272802,
      "hi": 1.0
     },
     "confusion": {
      "malicious": {
-      "needs_human": 9,
-      "malicious": 9
+      "benign": 2,
+      "malicious": 16
      },
      "benign": {
-      "needs_human": 10,
-      "benign": 6,
-      "malicious": 2
+      "benign": 7,
+      "needs_human": 8,
+      "malicious": 3
      }
     },
     "validity": {
-     "ok": 34,
-     "retried": 2
+     "ok": 35,
+     "retried": 1
     },
     "errors": 0,
     "quotes": {
-     "verified": 86,
-     "total": 92
+     "verified": 90,
+     "total": 95
     },
     "all_live": false,
     "cost_per_1000": null,
-    "total_cost": 0.0033622,
-    "latency_median": 3.4498578500933945,
-    "latency_p95": 3.7854915000498295,
-    "live_alerts": 6,
-    "tokens_in": 15632,
-    "tokens_out": 3598
+    "total_cost": 0.0,
+    "latency_median": null,
+    "latency_p95": null,
+    "live_alerts": 0,
+    "tokens_in": 0,
+    "tokens_out": 0
    },
    "results": [
     {
@@ -1969,26 +2004,31 @@
      "label": "malicious",
      "technique": "T1059.001",
      "lookalike_of": null,
-     "verdict": "needs_human",
+     "verdict": "benign",
      "predicted_technique": null,
-     "confidence": 0.5,
+     "confidence": 0.8,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 1.2845314999576658,
+     "seconds": 0.10773289995267987,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "The command only reads OS version and SKU from a domain controller running as SYSTEM, which could be routine inventory or monitoring, but it also resembles basic system discovery. None of the provided Sigma rules or ATT&CK items match this command line: the shadow copy, redirected input, remote thread, and WinRM rules do not apply, and no ATT&CK discovery technique was supplied. The parent process and the launching tool are not in the alert, so the source cannot be verified; an analyst should check the parent process and whether this matches known management tooling on this host.",
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "The command only queries operating system version and SKU via Get-CimInstance and formats the output as JSON, which is routine inventory or health-check activity. None of the provided context rules match: the shadow copy rule requires Win32_ShadowCopy and .Create(, the redirected input rule requires a '-<' pattern, the version mismatch and WinRM rules need different fields or parent processes, and the remote thread rule needs a remote thread creation event. Running as SYSTEM on a domain controller is somewhat sensitive, so confidence is moderate rather than high.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "powershell \"Get-CimInstance Win32_OperatingSystem\" \"| Select-Object\" \"Version, OperatingSystemSKU\" \"| ConvertTo-Json -Depth 3\""
+       "quote": "Get-CimInstance Win32_OperatingSystem"
+      },
+      {
+       "source": "alert_field",
+       "ref": "command_line",
+       "quote": "| Select-Object\" \"Version, OperatingSystemSKU\" \"| ConvertTo-Json -Depth 3"
       }
      ],
      "retrieved": [
@@ -2004,31 +2044,26 @@
      "label": "malicious",
      "technique": "T1059.001",
      "lookalike_of": null,
-     "verdict": "needs_human",
+     "verdict": "benign",
      "predicted_technique": null,
-     "confidence": 0.6,
+     "confidence": 0.8,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.42201410001143813,
+     "seconds": 0.14944489998742938,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
      "quotes_verified": 1,
-     "quotes_total": 2,
-     "rationale": "The Sigma base64 PowerShell rule matches because the command uses -EncodedCommand with ExecutionPolicy Unrestricted. Decoding the UTF-16LE payload gives Set-StrictMode, then 'shutdown /r /t 2 /c \"Reboot initiated by Ansible\"', then an exit-code check, which looks like a standard Ansible Windows reboot task rather than attacker tradecraft. Because this is an encoded command run as Administrator on a domain controller that forces a reboot, a human should confirm that Ansible automation is authorized on win-dc-235 before closing the alert.",
+     "quotes_total": 1,
+     "rationale": "The -EncodedCommand payload decodes (UTF-16LE base64) to a routine Windows reboot: Set-StrictMode, then 'shutdown /r /t 2 /c \"Reboot initiated by Ansible\"', then an exit-code check. This is a common configuration-management pattern run by the Administrator account, and the alert contains no download, injection, or other abuse indicators. The main caveat is that it reboots a domain controller, so an operator may want to confirm the Ansible job was authorized, but the alert itself does not show abuse.",
      "evidence": [
-      {
-       "source": "sigma",
-       "ref": "Suspicious Execution of Powershell with Base64",
-       "quote": "Commandline to launch powershell with a base64 payload"
-      },
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "-NoProfile -NonInteractive -ExecutionPolicy Unrestricted -EncodedCommand UwBlAHQALQBTAHQAcgBp..."
+       "quote": "-NoProfile -NonInteractive -ExecutionPolicy Unrestricted -EncodedCommand UwBlAHQALQBTAHQAcgBpAGMAdABNAG8AZABlACAALQBWAGUAcgBzAGkAbwBuACAATABhAHQAZQBzAHQACgBzAGgAdQB0AGQAbwB3AG4A"
       }
      ],
      "retrieved": [
@@ -2046,11 +2081,11 @@
      "lookalike_of": null,
      "verdict": "malicious",
      "predicted_technique": "T1059.001",
-     "confidence": 0.7,
+     "confidence": 0.8,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.3798883999697864,
+     "seconds": 0.10468819993548095,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2058,17 +2093,17 @@
      "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "powershell.exe was launched on a domain controller under the Administrator account with -NoProfile, -NonInteractive, -ExecutionPolicy Unrestricted and a Base64 -EncodedCommand payload, which matches the Sigma Base64 PowerShell rule. The encoded payload appears to be nested and is truncated in the alert, so I could only partly decode it and did not confirm its intent. Legitimate administration can also use encoded commands, so a human should decode the full payload and check the session context before concluding.",
+     "rationale": "powershell.exe is launched with -EncodedCommand plus NoProfile, NonInteractive and ExecutionPolicy Unrestricted flags, which matches the Sigma base64 encoded-execution pattern (the ' -enco' substring matches). The decoded prefix is itself a PowerShell command that carries a further encoded blob, a common obfuscation layer, and it runs as Administrator on a domain controller. The alert lacks the parent process and any follow-on activity, and encoded commands are sometimes used by legitimate admin tooling, so confidence is 0.8 rather than higher.",
      "evidence": [
-      {
-       "source": "alert_field",
-       "ref": "command_line",
-       "quote": "-NoProfile -NonInteractive -ExecutionPolicy Unrestricted -EncodedCommand"
-      },
       {
        "source": "sigma",
        "ref": "Suspicious Execution of Powershell with Base64",
        "quote": "Commandline to launch powershell with a base64 payload"
+      },
+      {
+       "source": "alert_field",
+       "ref": "command_line",
+       "quote": "-NoProfile -NonInteractive -ExecutionPolicy Unrestricted -EncodedCommand"
       },
       {
        "source": "attack",
@@ -2089,13 +2124,13 @@
      "label": "malicious",
      "technique": "T1053.005",
      "lookalike_of": null,
-     "verdict": "needs_human",
-     "predicted_technique": null,
-     "confidence": 0.6,
+     "verdict": "malicious",
+     "predicted_technique": "T1053.005",
+     "confidence": 0.65,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.3375458000227809,
+     "seconds": 0.12345309997908771,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2103,7 +2138,7 @@
      "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The command runs an existing task named \"evilTask\" on a remote host (10.0.1.15) as ATTACKRANGE\\Administrator, which matches the remote scheduled-task execution pattern associated with lateral movement under T1053.005. None of the supplied Sigma rules match this command, since they target /create, suspicious folders, or specific tool chains, and the alert shows no task creation or payload path. The task name is suspicious, but a name alone is thin evidence, and remote /run is also routine administration, so a human should check what evilTask does on 10.0.1.15 and whether it was expected.",
+     "rationale": "The alert shows schtasks.exe run remotely against 10.0.1.15 to execute an existing task named \"evilTask\", which is a scheduled-task execution pattern mapped to T1053.005 in the context. The task name is a strong indicator of malicious intent, and nothing in the alert points to a legitimate administrative purpose. The context rules mostly cover task creation rather than remote execution, and the alert does not show the task's contents, so confidence is moderate.",
      "evidence": [
       {
        "source": "alert_field",
@@ -2113,7 +2148,7 @@
       {
        "source": "sigma",
        "ref": "Scheduled Task Creation Via Schtasks.EXE",
-       "quote": "Detects the creation of scheduled tasks by user accounts via the \"schtasks\" utility."
+       "quote": "Techniques: T1053.005"
       }
      ],
      "retrieved": [
@@ -2135,7 +2170,7 @@
      "model_verdict": null,
      "status": "retried",
      "reason": null,
-     "seconds": 0.7174009999725968,
+     "seconds": 0.14919140003621578,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2143,7 +2178,7 @@
      "cached_calls": 2,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "The schtasks call creates a recurring task every 6 minutes that launches a script from C:\\Users\\Public, a world-writable folder often abused by malware. The generic task name \"Disk Diag\" and the run on a domain controller under the Administrator account add to the concern. The Sigma rule for suspicious-path scheduled tasks matches this command, though an administrator could have created it deliberately, so confidence is high but not absolute.",
+     "rationale": "The alert shows schtasks.exe creating a task that runs every 6 minutes and launches a script from C:\\Users\\Public, a path the matching Sigma rule flags as suspicious. The task name \"Disk Diag\" is made to look like routine maintenance, and the payload is a .js file launched through explorer.exe. Nothing in the alert points to a known administrative or software installation pattern, though the Administrator account on a domain controller could in principle be authorized activity.",
      "evidence": [
       {
        "source": "sigma",
@@ -2174,13 +2209,13 @@
      "label": "malicious",
      "technique": "T1053.005",
      "lookalike_of": null,
-     "verdict": "needs_human",
-     "predicted_technique": null,
+     "verdict": "malicious",
+     "predicted_technique": "T1053.005",
      "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.2979407000821084,
+     "seconds": 0.12439219979569316,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2188,12 +2223,12 @@
      "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "The alert shows a scheduled task named MordorSchtask created by user pgustavo on WORKSTATION5 at 03:15 UTC, which matches the general pattern of T1053.005 persistence. However, the alert does not include the creating process, the task's action or executable path, its trigger schedule, or whether it runs as a privileged account, so it cannot be told apart from administrative or software-installation activity. An analyst should check the creating process and task action, and confirm with the user whether the task is expected.",
+     "rationale": "The alert records a new scheduled task created by a user account (pgustavo) on a workstation at 03:15 UTC, which matches the task-creation behaviour described for T1053.005. The alert shows no legitimate context such as an installer, administrative change ticket, or known software, but it also lacks the creating process, the task action and the executable path. Confidence is moderate because the alert alone cannot confirm the task's purpose.",
      "evidence": [
       {
-       "source": "attack",
-       "ref": "T1053.005",
-       "quote": "Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code."
+       "source": "alert_field",
+       "ref": "event_type",
+       "quote": "scheduled_task_created"
       },
       {
        "source": "alert_field",
@@ -2201,9 +2236,9 @@
        "quote": "scheduled task \\MordorSchtask"
       },
       {
-       "source": "alert_field",
-       "ref": "timestamp",
-       "quote": "2020-09-21 03:15:45+00:00"
+       "source": "attack",
+       "ref": "T1053.005",
+       "quote": "Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code."
       }
      ],
      "retrieved": [
@@ -2225,7 +2260,7 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.8084115998353809,
+     "seconds": 0.18842360004782677,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2233,7 +2268,7 @@
      "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "A new Run key value named 'Updater' is set to launch PowerShell with a hidden window and an encoded command, which is a persistence pattern that matches the Sigma rule for PowerShell in Run keys. The command reads a payload from the Debug value of a registry key and then executes it with -Win Hidden -enc, which is an obfuscated fileless execution method. No legitimate administrative context is apparent, so the activity is treated as malicious persistence.",
+     "rationale": "A value named Updater is written to a user Run key so that PowerShell launches at logon. The payload reads an encoded blob from a registry value, runs PowerShell with a hidden window, and passes it to -enc, which is a fileless staging pattern. Nothing in the alert suggests administrative or legitimate use, and the write matches the Sigma rule for PowerShell in Run keys.",
      "evidence": [
       {
        "source": "sigma",
@@ -2264,13 +2299,13 @@
      "label": "malicious",
      "technique": "T1547.001",
      "lookalike_of": null,
-     "verdict": "needs_human",
-     "predicted_technique": null,
+     "verdict": "malicious",
+     "predicted_technique": "T1547.001",
      "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.26436519995331764,
+     "seconds": 0.10362629988230765,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2278,12 +2313,12 @@
      "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The command silently force-deletes a RunOnceEx Depend value on a domain controller, which matches the logon-persistence structure described in T1547.001. Removing a persistence entry is also what an administrator or incident responder would do, and the alert does not show the matching creation step or any other attacker activity. Because the evidence is mixed and the alert is a single event with no surrounding context, a human should confirm whether this is remediation or an attacker covering tracks.",
+     "rationale": "The command silently and forcibly deletes a RunOnceEx Depend value, the same logon-persistence mechanism described for T1547.001, and it runs on a domain controller under the Administrator account with output suppressed. Removing a persistence entry this way is consistent with attacker cleanup, but the alert has no parent process or surrounding activity to confirm it was not routine administrator cleanup. Confidence is moderate, and a reviewer should check whether this removal was expected and whether a matching Depend entry was previously added.",
      "evidence": [
       {
        "source": "attack",
        "ref": "T1547.001",
-       "quote": "it is possible to load a DLL at logon using a \"Depend\" key with RunOnceEx"
+       "quote": "Registry run key entries can reference programs directly or list them as a dependency. For example, it is possible to load a DLL at logon using a \"Depend\" key with RunOnceEx"
       },
       {
        "source": "alert_field",
@@ -2306,29 +2341,34 @@
      "lookalike_of": null,
      "verdict": "malicious",
      "predicted_technique": "T1547.001",
-     "confidence": 0.8,
+     "confidence": 0.85,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.15343700000084937,
+     "seconds": 0.1288900999352336,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
-     "quotes_verified": 1,
-     "quotes_total": 2,
-     "rationale": "The alert shows reg.exe writing a DLL path into the RunOnceEx\\0001\\Depend value on a domain controller, which matches the documented T1547.001 technique of loading a DLL at logon through a Depend key. The DLL name \"AtomicRedTeam\" and the placeholder-style path suggest this may be an authorized Atomic Red Team test, which would make it benign, but the alert alone does not confirm that. Verify with the change owner or red team schedule before closing; the verdict assumes it is not sanctioned.",
+     "quotes_verified": 2,
+     "quotes_total": 3,
+     "rationale": "The alert shows reg.exe writing a DLL path into the HKLM RunOnceEx\\0001\\Depend key on a domain controller, which matches the documented method of loading a DLL at logon. The DLL name 'AtomicRedTeam.dll' suggests this may be an Atomic Red Team test, which is authorized testing rather than real abuse, but the alert gives no sign of authorization, so I still rate it malicious with moderate confidence and recommend the analyst confirm whether a sanctioned test was running.",
      "evidence": [
       {
        "source": "attack",
        "ref": "T1547.001",
-       "quote": "it is possible to load a DLL at logon using a \"Depend\" key with RunOnceEx: reg add HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx\\0001\\Depend /v 1 /d \"C:\\temp\\evil[.]dll\""
+       "quote": "it is possible to load a DLL at logon using a \"Depend\" key with RunOnceEx"
       },
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "registry HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx\\0001\\Depend\\1 = C:\\Path\\AtomicRedTeam.dll"
+      },
+      {
+       "source": "sigma",
+       "ref": "CurrentVersion Autorun Keys Modification",
+       "quote": "Detects modification of autostart extensibility point (ASEP) in registry."
       }
      ],
      "retrieved": [
@@ -2346,11 +2386,11 @@
      "lookalike_of": null,
      "verdict": "malicious",
      "predicted_technique": "T1003.001",
-     "confidence": 0.8,
+     "confidence": 0.9,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.20470279990695417,
+     "seconds": 0.43756189988926053,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2358,12 +2398,12 @@
      "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The command line uses ProcDump's full-memory flag (-ma) against lsass.exe and writes the output to a temp directory, which matches the Sigma rule for LSASS credential dumping via ProcDump. The rule notes that legitimate use is rare, since no routine process should dump LSASS memory. The AtomicRedTeam path suggests this may be an authorized test, and the image name (procdump64.exe) does not match the command line (procdump.exe), so a human should confirm whether it was sanctioned.",
+     "rationale": "The command line runs ProcDump with the -ma full-dump flag against lsass.exe and writes the output to C:\\Windows\\Temp, which matches the Sigma rule for LSASS credential dumping. The process image is named procdump64.exe while the command line invokes procdump.exe, so the binary may have been renamed or copied, which is consistent with evasion. The Atomic Red Team path suggests this may be a test, but the alert does not show authorization, and an LSASS memory dump should be treated as credential theft until an analyst confirms otherwise.",
      "evidence": [
       {
        "source": "sigma",
        "ref": "Potential LSASS Process Dump Via Procdump",
-       "quote": "Detects potential credential harvesting attempts through LSASS memory dumps using ProcDump."
+       "quote": "CommandLine|contains|windash: [' -ma ', ' -mm ', ' -mp ']"
       },
       {
        "source": "alert_field",
@@ -2390,15 +2430,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.4157704000826925,
-     "cost_usd": 0.0005255,
-     "input_tokens": 2790,
-     "output_tokens": 493,
+     "seconds": 0.19985680002719164,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 3,
+     "cached_calls": 1,
+     "quotes_verified": 2,
      "quotes_total": 3,
-     "rationale": "The command line runs rundll32 against comsvcs.dll with the MiniDump export, the 'full' flag, and a dump file written to a user temp directory, which matches the Sigma rule for dumping process memory through comsvcs.dll. The target PID 756 is likely lsass.exe given the dump filename, and dumping LSASS memory to harvest credentials is OS credential dumping (T1003.001). Rundll32 is the proxy used to execute it, which is why T1218.011 also appears in the references, but the primary technique is credential dumping. The rule lists few false positives, and I could not confirm the PID maps to LSASS from the alert alone, so this is high but not certain confidence.",
+     "rationale": "The command line invokes comsvcs.dll MiniDump with the full flag against process ID 756, which matches the Sigma rule for dumping process memory via comsvcs.dll and is a known method for dumping LSASS credentials. The output path is a temp directory under a user profile, and nothing in the alert suggests administrative or backup use. The technique most directly matched is credential dumping (T1003.001), with rundll32 proxy execution as the vehicle. Lacking the process's parent and follow-on activity, confidence is high but not absolute, and the PID should be checked against lsass.exe.",
      "evidence": [
       {
        "source": "sigma",
@@ -2406,14 +2446,14 @@
        "quote": "Detects a process memory dump via \"comsvcs.dll\" using rundll32"
       },
       {
+       "source": "alert_field",
+       "ref": "command_line",
+       "quote": "rundll32.exe C:\\windows\\System32\\comsvcs.dll MiniDump 756 C:\\Users\\wardog\\AppData\\Local\\Temp\\lsass-comsvcs.dmp full"
+      },
+      {
        "source": "attack",
        "ref": "T1218.011",
        "quote": "Adversaries may abuse rundll32.exe to proxy execution of malicious code."
-      },
-      {
-       "source": "alert_field",
-       "ref": "command_line",
-       "quote": "C:\\windows\\System32\\comsvcs.dll MiniDump 756 C:\\Users\\wardog\\AppData\\Local\\Temp\\lsass-comsvcs.dmp full"
       }
      ],
      "retrieved": [
@@ -2435,15 +2475,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.493513299850747,
+     "seconds": 0.12894730013795197,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
-     "quotes_verified": 3,
+     "quotes_verified": 2,
      "quotes_total": 3,
-     "rationale": "The command line invokes comsvcs.dll's MiniDump export via rundll32 with a process ID and the 'full' flag, writing to a Temp directory file named lsass-comsvcs.dmp. This matches the Sigma rule for dumping process memory via comsvcs.dll, which targets LSSAS credential dumping and is rated high severity with few expected false positives. Given the filename suggests an LSASS dump, this is strong evidence of credential access, though the process ID 756 was not verified against lsass.exe in the alert.",
+     "rationale": "The command line invokes comsvcs.dll MiniDump with the 'full' option against PID 756, which is the pattern the Sigma rule flags for dumping process memory via rundll32. The target is most likely lsass.exe, given the output filename 'lsass-comsvcs.dmp', and dumping LSASS credentials is a classic credential access action. Nothing in the alert suggests an administrative or backup purpose, so the verdict is malicious. The T1003.001 technique id is the most specific match for the credential dumping behaviour.",
      "evidence": [
       {
        "source": "sigma",
@@ -2453,7 +2493,7 @@
       {
        "source": "alert_field",
        "ref": "command_line",
-       "quote": "C:\\windows\\System32\\comsvcs.dll MiniDump 756 C:\\Users\\wardog\\AppData\\Local\\Temp\\lsass-comsvcs.dmp full"
+       "quote": "rundll32.exe C:\\windows\\System32\\comsvcs.dll MiniDump 756 C:\\Users\\wardog\\AppData\\Local\\Temp\\lsass-comsvcs.dmp full"
       },
       {
        "source": "attack",
@@ -2474,36 +2514,31 @@
      "label": "malicious",
      "technique": "T1021.002",
      "lookalike_of": null,
-     "verdict": "needs_human",
-     "predicted_technique": null,
-     "confidence": 0.45,
+     "verdict": "malicious",
+     "predicted_technique": "T1021.002",
+     "confidence": 0.65,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.646823100047186,
-     "cost_usd": 0.0005302999999999999,
-     "input_tokens": 2498,
-     "output_tokens": 561,
+     "seconds": 0.08429070003330708,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 3,
-     "quotes_total": 3,
-     "rationale": "The command line references the C$ administrative share on a wildcard target and a 'file ProgramData' path, which could fit admin-share access or share discovery. However, it does not show net.exe or a 'net use' mount, so the Sigma mount rules do not match, and the string looks truncated or malformed. The source process, the target host and the user's role are not given, so a benign admin action cannot be ruled out. An analyst should check the originating process and whether pgustavo normally accesses this host.",
+     "cached_calls": 1,
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "The command targets the hidden administrative share C$ on a remote-style path and browses the ProgramData folder, which matches the SMB admin share access described in T1021.002. The alert shows no process name or parent, and the syntax is not a standard net.exe invocation, so the Sigma net.exe rules do not directly apply and I did not cite them. Nothing in the alert points to routine administration, but the lack of process context keeps confidence moderate, and a human should confirm the originating process and whether pgustavo is authorized to use this share.",
      "evidence": [
+      {
+       "source": "attack",
+       "ref": "T1021.002",
+       "quote": "Example network shares include `C$`, `ADMIN$`, and `IPC$`"
+      },
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "share \\\\*\\C$ file ProgramData"
-      },
-      {
-       "source": "attack",
-       "ref": "T1021.002",
-       "quote": "Adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB"
-      },
-      {
-       "source": "attack",
-       "ref": "T1135",
-       "quote": "Adversaries may look for folders and drives shared on remote systems"
       }
      ],
      "retrieved": [
@@ -2519,13 +2554,13 @@
      "label": "malicious",
      "technique": "T1021.002",
      "lookalike_of": null,
-     "verdict": "needs_human",
-     "predicted_technique": null,
-     "confidence": 0.5,
+     "verdict": "malicious",
+     "predicted_technique": "T1021.002",
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.14176369993947446,
+     "seconds": 0.06802879995666444,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2533,8 +2568,13 @@
      "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "A user account (pgustavo) accessed the hidden administrative share C$ on WORKSTATION6 from 172.18.39.5, which matches the admin-share pattern in T1021.002. However, the command_line is not a standard access pattern, and the alert does not show a follow-on action such as service creation, task scheduling, or file transfer. The Sigma rule for ADMIN$ does not cover C$, and admin-share access is common in legitimate administration, so the evidence is too thin to call either way and a human should check the source host, the user's role, and whether the access was expected.",
+     "rationale": "The alert shows a user from a workstation accessing the hidden C$ administrative share on WORKSTATION6, which matches the admin-share access described in T1021.002. Nothing in the alert shows that this account is an administrator or that the access is routine, and the Sigma rule for ADMIN$ access points to the same pattern. Confidence is moderate because a legitimate administrator could produce this access, and the alert lacks the source host context and follow-on activity needed to confirm abuse.",
      "evidence": [
+      {
+       "source": "attack",
+       "ref": "T1021.002",
+       "quote": "Example network shares include `C$`, `ADMIN$`, and `IPC$`."
+      },
       {
        "source": "alert_field",
        "ref": "command_line",
@@ -2542,13 +2582,8 @@
       },
       {
        "source": "alert_field",
-       "ref": "event_type",
-       "quote": "network_share_access"
-      },
-      {
-       "source": "attack",
-       "ref": "T1021.002",
-       "quote": "Windows systems have hidden network shares that are accessible only to administrators and provide the ability for remote file copy and other administrative functions. Example network shares include `C$`, `ADMIN$`, and `IPC$`."
+       "ref": "user",
+       "quote": "pgustavo"
       }
      ],
      "retrieved": [
@@ -2570,25 +2605,30 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.7854915000498295,
-     "cost_usd": 0.000617,
-     "input_tokens": 2685,
-     "output_tokens": 697,
+     "seconds": 0.08238500007428229,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
-     "quotes_verified": 2,
-     "quotes_total": 2,
-     "rationale": "The command line targets the hidden C$ administrative share on a remote host and references a file named GruntHTTP.exe in ProgramData, which matches the naming of a known C2 implant and fits the T1021.002 pattern of transferring and running binaries over SMB. The Sigma share-mount rules in context key on 'net use' and do not match this exact syntax, so the detection is based on the ATT&CK behaviour rather than a direct rule hit. Confidence is moderately high but not certain, because the alert lacks the process image and parent process, and an administrator tool could in principle produce similar output.",
+     "cached_calls": 1,
+     "quotes_verified": 3,
+     "quotes_total": 3,
+     "rationale": "The command accesses the hidden administrative share C$ on a remote host and references a file named GruntHTTP.exe in ProgramData, which matches the remote file copy over admin shares described in T1021.002. The filename resembles the Grunt post-exploitation framework, and no administrative context in the alert suggests legitimate use. The alert does not show the net.exe image, so the Sigma rule matches only by analogy, and the confidence reflects that gap. The source user pgustavo and the parent process are not available to confirm authorization.",
      "evidence": [
-      {
-       "source": "attack",
-       "ref": "T1021.002",
-       "quote": "Adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB, to interact with systems using remote procedure calls (RPCs), transfer files, and run transferred binaries"
-      },
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "share \\\\*\\C$ file ProgramData\\GruntHTTP.exe"
+      },
+      {
+       "source": "attack",
+       "ref": "T1021.002",
+       "quote": "Windows systems have hidden network shares that are accessible only to administrators and provide the ability for remote file copy and other administrative functions."
+      },
+      {
+       "source": "sigma",
+       "ref": "Windows Admin Share Mount Via Net.EXE",
+       "quote": "Detects when an admin share is mounted using net.exe"
       }
      ],
      "retrieved": [
@@ -2604,13 +2644,13 @@
      "label": "malicious",
      "technique": "T1110",
      "lookalike_of": null,
-     "verdict": "needs_human",
-     "predicted_technique": null,
-     "confidence": 0.6,
+     "verdict": "malicious",
+     "predicted_technique": "T1110.001",
+     "confidence": 0.8,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.10620869998820126,
+     "seconds": 0.06766870012506843,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2618,12 +2658,12 @@
      "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "The process is PurpleSharp.exe, an adversary simulation tool, run from a user Downloads folder, which is suspicious. The alert contains only a single logon failure, though, so it does not show repeated guessing, and the tool may be part of an authorized purple team exercise. A human should confirm whether PurpleSharp was sanctioned on WORKSTATION5 and review nearby logon events for sbeavers.",
+     "rationale": "The alert records a logon failure for user sbeavers on WORKSTATION5, and the process responsible is PurpleSharp.exe run from a user's Downloads folder. PurpleSharp is an adversary-simulation tool, and repeated logon failures from such a binary match the password guessing technique T1110.001. The alert does not show an authorized exercise or any administrative reason, so it should be confirmed with the owner of the host or user before the verdict is closed.",
      "evidence": [
       {
-       "source": "alert_field",
-       "ref": "process",
-       "quote": "C:\\Users\\pgustavo\\Downloads\\PurpleSharp.exe"
+       "source": "attack",
+       "ref": "T1110.001",
+       "quote": "LDAP and Kerberos connection attempts are less likely to trigger events over SMB, which creates Windows \"logon failure\" event ID 4625."
       },
       {
        "source": "alert_field",
@@ -2631,9 +2671,9 @@
        "quote": "logon_failure"
       },
       {
-       "source": "attack",
-       "ref": "T1110.001",
-       "quote": "LDAP and Kerberos connection attempts are less likely to trigger events over SMB, which creates Windows \"logon failure\" event ID 4625."
+       "source": "alert_field",
+       "ref": "process",
+       "quote": "C:\\Users\\pgustavo\\Downloads\\PurpleSharp.exe"
       }
      ],
      "retrieved": [
@@ -2649,22 +2689,27 @@
      "label": "malicious",
      "technique": "T1110",
      "lookalike_of": null,
-     "verdict": "needs_human",
-     "predicted_technique": null,
-     "confidence": 0.6,
+     "verdict": "malicious",
+     "predicted_technique": "T1110.001",
+     "confidence": 0.8,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.10831149993464351,
+     "seconds": 0.08409849996678531,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
-     "quotes_verified": 2,
+     "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "A logon failure is reported for user pbeesly, and the process is an executable named PurpleSharp.exe run from a user's Downloads folder. From my background knowledge, PurpleSharp is an adversary simulation tool, so this could be attacker activity or an authorized purple-team exercise, and the alert alone cannot distinguish them. A single logon failure does not establish password guessing, so an analyst should confirm whether the tool was sanctioned and review the surrounding logon events on WORKSTATION5.",
+     "rationale": "The alert records a logon failure for user pbeesly on WORKSTATION5, which matches the failed-logon behaviour described for password guessing (T1110.001). The process is an executable named PurpleSharp.exe run from a user's Downloads folder, which is not routine administration, and PurpleSharp is widely known as an offensive adversary-simulation tool. The alert shows only one event and no context on whether this was an authorized purple-team exercise, so confidence is moderate and the analyst should confirm with the red-team or test calendar.",
      "evidence": [
+      {
+       "source": "attack",
+       "ref": "T1110.001",
+       "quote": "LDAP and Kerberos connection attempts are less likely to trigger events over SMB, which creates Windows \"logon failure\" event ID 4625."
+      },
       {
        "source": "alert_field",
        "ref": "event_type",
@@ -2674,11 +2719,6 @@
        "source": "alert_field",
        "ref": "process",
        "quote": "C:\\Users\\pgustavo\\Downloads\\PurpleSharp.exe"
-      },
-      {
-       "source": "attack",
-       "ref": "T1110.001",
-       "quote": "LSASS and Kerberos connection attempts are less likely to trigger events over SMB, which creates Windows \"logon failure\" event ID 4625."
       }
      ],
      "retrieved": [
@@ -2696,11 +2736,11 @@
      "lookalike_of": null,
      "verdict": "malicious",
      "predicted_technique": "T1110.001",
-     "confidence": 0.7,
+     "confidence": 0.75,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.13224399997852743,
+     "seconds": 0.10575069999322295,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2708,7 +2748,7 @@
      "cached_calls": 1,
      "quotes_verified": 4,
      "quotes_total": 4,
-     "rationale": "A logon failure was recorded for the service account nxlogsvc, and the process responsible is PurpleSharp.exe, an adversary-simulation tool run from a user's Downloads folder. This pattern matches password guessing (T1110.001). PurpleSharp is also used in authorized purple-team exercises, and the alert holds only one failed logon, so an analyst should confirm whether this run was approved before treating it as an active intrusion.",
+     "rationale": "A logon failure is recorded for the service account nxlogsvc while PurpleSharp.exe, an adversary simulation tool, runs from a user's Downloads folder. This is consistent with password guessing against an account, which T1110.001 describes. The alert does not show an authorized purple-team exercise, though one could be running on this lab host, so confidence is moderate.",
      "evidence": [
       {
        "source": "attack",
@@ -2744,21 +2784,21 @@
      "label": "benign",
      "technique": null,
      "lookalike_of": "T1059.001",
-     "verdict": "needs_human",
+     "verdict": "benign",
      "predicted_technique": null,
-     "confidence": 0.6,
+     "confidence": 0.8,
      "model_verdict": null,
-     "status": "retried",
+     "status": "ok",
      "reason": null,
-     "seconds": 0.22935070004314184,
+     "seconds": 0.152369299903512,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
-     "calls": 2,
-     "cached_calls": 2,
+     "calls": 1,
+     "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The command line runs a named administrative script from an IT directory under an operations admin account, and it contains no encoded payload, download cradle, or lsass or shadow-copy indicators. None of the provided Sigma rules match this command line. The script's contents, parent process, and network activity were not available, so the evidence is too thin to call it benign with confidence.",
+     "rationale": "The alert shows PowerShell running a named script from an IT scripts directory under an operations administrator account, with no encoded command, remote session, or credential-access indicators. The command line matches routine scheduled administration rather than any technique in the provided context. Confidence is moderate because the alert lacks script contents and parent process, so a human should confirm the script is an approved sync job.",
      "evidence": [
       {
        "source": "alert_field",
@@ -2790,15 +2830,15 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.23576810001395643,
+     "seconds": 0.17549820011481643,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
-     "quotes_verified": 2,
-     "quotes_total": 2,
-     "rationale": "The process runs a named IT patching script from an internal scripts directory under a dedicated patch service account, which matches routine administrative automation. The Sigma rule 'Non Interactive PowerShell Process Spawned' flags non-interactive PowerShell, but its own notes say admin scripts often trigger it, and the parent process is not shown here to check for an unusual origin. Confidence is moderate because the parent process and the script contents were not provided.",
+     "quotes_verified": 3,
+     "quotes_total": 3,
+     "rationale": "The alert shows a dedicated patching service account (CORP\\svc-patch) running a named update script from an IT scripts directory with -NonInteractive, which is consistent with scheduled maintenance. The Sigma rule that matches non-interactive PowerShell is low severity and its own notes say it commonly fires on admin scripts. Nothing in the command line shows encoded content, download cascades, or credential access, and the parent process is not shown, so confidence is moderate rather than high.",
      "evidence": [
       {
        "source": "alert_field",
@@ -2809,6 +2849,11 @@
        "source": "alert_field",
        "ref": "command_line",
        "quote": "powershell.exe -NonInteractive -NoLogo -File D:\\IT\\scripts\\Install-Updates.ps1"
+      },
+      {
+       "source": "sigma",
+       "ref": "Non Interactive PowerShell Process Spawned",
+       "quote": "Many admin scripts and tools leverage PowerShell in their BAT or VB scripts which may trigger this rule often."
       }
      ],
      "retrieved": [
@@ -2830,7 +2875,7 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.2551062998827547,
+     "seconds": 0.1104948001448065,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2838,7 +2883,7 @@
      "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The command runs a local PowerShell script from an IT scripts directory with a RemoteSigned execution policy, which is routine administrative activity. It does not match the encoded-command, remote session, shadow copy, or PsExec indicators in the reference rules. The account is an IT administrator account, consistent with this usage, though the context does not confirm the script's contents.",
+     "rationale": "The command runs a named disk-check script from an IT scripts directory under an IT administrator account, which matches routine administration. It has no encoded payload, no remote session parameters, no shadow copy or PsExec artefacts, and none of the context rules match its fields. The alert does not show abuse, though confidence is not absolute because a single alert lacks the parent process and follow-on activity.",
      "evidence": [
       {
        "source": "alert_field",
@@ -2866,29 +2911,34 @@
      "lookalike_of": "T1053.005",
      "verdict": "benign",
      "predicted_technique": null,
-     "confidence": 0.7,
+     "confidence": 0.8,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.22300040000118315,
+     "seconds": 0.12104120012372732,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
-     "quotes_verified": 2,
-     "quotes_total": 2,
-     "rationale": "The task runs a binary from C:\\Program Files, not from a temp, AppData, Public or other user-writable path that the temp-folder and env-variable rules flag. It is a weekly job in an IT folder, created by an IT admin account (CORP\\adm-it2), which matches the known administrative false-positive pattern. The /RU SYSTEM setting is the main reason for some residual doubt, so a quick check that BackupAgent is an approved tool and that the task is documented would confirm this.",
+     "quotes_verified": 3,
+     "quotes_total": 3,
+     "rationale": "The task runs a binary from Program Files (BackupAgent), is scheduled weekly at a fixed time, and was created by a named IT administrator account, which fits routine administration. It does not use a temp, user-writable, or environment-variable path, and it does not involve OpenSSH or a download cascade. The RU SYSTEM setting is a common admin choice, but nothing here points to abuse, so confidence is moderate.",
      "evidence": [
-      {
-       "source": "sigma",
-       "ref": "Scheduled Task Creation Via Schtasks.EXE",
-       "quote": "Known false positives: Administrative activity; Software installation"
-      },
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "schtasks.exe /Create /TN \"IT\\PatchScan\" /TR \"C:\\Program Files\\BackupAgent\\run.exe\" /SC WEEKLY /D SUN /ST 03:30 /RU SYSTEM"
+      },
+      {
+       "source": "alert_field",
+       "ref": "user",
+       "quote": "CORP\\adm-it2"
+      },
+      {
+       "source": "sigma",
+       "ref": "Scheduled Task Creation Via Schtasks.EXE",
+       "quote": "Known false positives: Administrative activity; Software installation"
       }
      ],
      "retrieved": [
@@ -2906,29 +2956,34 @@
      "lookalike_of": "T1053.005",
      "verdict": "benign",
      "predicted_technique": null,
-     "confidence": 0.6,
+     "confidence": 0.8,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.18552810000255704,
+     "seconds": 0.09876230009831488,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
-     "quotes_verified": 2,
-     "quotes_total": 2,
-     "rationale": "The task runs a weekly health check executable from an IT tools directory under a service-patch account, which fits routine administrative scheduling. It does not match the suspicious indicators in the reference rules: the path is not a temp, public, or AppData location, the schedule is weekly rather than a one-time run, and there is no encoded PowerShell or registry payload. Confidence is moderate because the account runs as SYSTEM and the binary's provenance is not verified in the alert, so a quick check of healthcheck.exe's hash and the svc-patch account's expected activity is advisable.",
+     "quotes_verified": 3,
+     "quotes_total": 3,
+     "rationale": "The task is a weekly, scheduled run of a health-check executable from an IT tools folder under a named monitoring task, which matches routine administration rather than the one-time temp-folder or encoded-payload patterns in the context. The task runs as SYSTEM and is created by a patch service account, which is plausible for IT tooling, but the alert does not show a malicious path, encoded content, or a suspicious parent. Confidence is moderate because the alert lacks parent process and follow-on telemetry to confirm the account's normal behaviour.",
      "evidence": [
+      {
+       "source": "sigma",
+       "ref": "Scheduled Task Creation Via Schtasks.EXE",
+       "quote": "Known false positives: Administrative activity; Software installation"
+      },
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "schtasks.exe /Create /TN \"Monitoring\\HealthCheck\" /TR \"C:\\IT\\tools\\healthcheck.exe\" /SC WEEKLY /D SUN /ST 03:30 /RU SYSTEM"
       },
       {
-       "source": "sigma",
-       "ref": "Scheduled Task Creation Via Schtasks.EXE",
-       "quote": "Known false positives: Administrative activity; Software installation"
+       "source": "alert_field",
+       "ref": "user",
+       "quote": "CORP\\svc-patch"
       }
      ],
      "retrieved": [
@@ -2950,7 +3005,7 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.19416240020655096,
+     "seconds": 0.11517379991710186,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -2958,7 +3013,7 @@
      "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The command creates a daily task that runs as SYSTEM and launches a script from C:\\IT\\tools, which is a persistence-style pattern worth checking. The task name, the IT tools path, and the admin account CORP\\adm-it2 point toward routine IT patch or cleanup work, and the matching Sigma rule lists administrative activity as a known false positive. The alert does not show a suspicious path, encoded content, or download behaviour, so I cannot confirm benign or malicious. An analyst should verify the account, the cleanup.cmd contents and hash, and whether a change record exists for this task.",
+     "rationale": "The alert shows a scheduled task created with schtasks.exe under an admin-style account (adm-it2), with a task name and script path that look like routine IT maintenance, which fits the known false-positive profile of the Sigma scheduled-task rule. However, the task runs as SYSTEM daily from a script, which is also the shape of scheduled-task persistence (T1053.005), and the alert lacks the parent process and change-ticket context needed to confirm it was authorized. I cannot confirm abuse or legitimate use from this single event, so a human should verify the task and the script's contents.",
      "evidence": [
       {
        "source": "sigma",
@@ -2986,19 +3041,19 @@
      "lookalike_of": "T1021.002",
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.5,
+     "confidence": 0.6,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.4301086000632495,
-     "cost_usd": 0.0005631,
-     "input_tokens": 2576,
-     "output_tokens": 611,
+     "seconds": 0.08281690021976829,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 2,
-     "quotes_total": 3,
-     "rationale": "The alert shows the svc-sccm account touching the C$ admin share on WS-ACCT-014 and writing an executable to a Temp path, which matches the lateral-movement pattern in T1021.002. However, SCCM service accounts routinely push packages to clients through admin shares, and the command line does not match a standard net use invocation. Without the SCCM package history or change record, the evidence is mixed, so a human should confirm whether sccm_pkg.exe was an expected deployment.",
+     "quotes_total": 2,
+     "rationale": "The command writes an executable into C$ under Windows\\Temp, which matches the admin-share file-transfer pattern in T1021.002. The account svc-sccm is an SCCM service account, and SCCM legitimately pushes packages through admin shares, so this could be routine deployment. The alert has no parent process or follow-on activity, and the command syntax does not match standard net use output, so an analyst should confirm the SCCM deployment schedule and the source host before closing it.",
      "evidence": [
       {
        "source": "alert_field",
@@ -3008,12 +3063,7 @@
       {
        "source": "attack",
        "ref": "T1021.002",
-       "quote": "access networked system over SMB... transfer files, and run transferred binaries through remote Execution"
-      },
-      {
-       "source": "sigma",
-       "ref": "SMB Create Remote File Admin Share",
-       "quote": "Look for non-system accounts SMB accessing a file with write (0x2) access mask via administrative share (i.e C$)."
+       "quote": "adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB"
       }
      ],
      "retrieved": [
@@ -3035,30 +3085,30 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.4696071001235396,
-     "cost_usd": 0.0005735,
-     "input_tokens": 2575,
-     "output_tokens": 632,
+     "seconds": 0.09382209996692836,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "The alert shows the svc-sccm service account accessing the D$ administrative share on WS-OPS-031 and writing an executable into a Windows Temp path, which matches the lateral-movement pattern in T1021.002. However, SCCM legitimately distributes packages through admin shares under service accounts, and the alert has no contextual proof of malicious intent, such as an unexpected source host or a known-bad hash. The command line also does not match standard net.exe syntax, so the alert should be checked against the SCCM server and change records by a person.",
+     "rationale": "The alert shows a non-machine account writing an executable to the D$ administrative share of a workstation, which matches the file-transfer pattern in T1021.002. SCCM service accounts commonly push packages over admin shares, so this could be legitimate software distribution. The alert lacks the surrounding context (SCCM site activity, change records, or the parent process) needed to tell the two apart, so a human should check it.",
      "evidence": [
       {
        "source": "attack",
        "ref": "T1021.002",
-       "quote": "Adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB"
-      },
-      {
-       "source": "sigma",
-       "ref": "Windows Admin Share Mount Via Net.EXE",
-       "quote": "Detects when an admin share is mounted using net.exe"
+       "quote": "Adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB, to interact with systems using remote procedure calls (RPCs), transfer files, and run transferred binaries through remote Execution."
       },
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "share \\\\*\\D$ file Windows\\Temp\\sccm_pkg.exe"
+      },
+      {
+       "source": "alert_field",
+       "ref": "user",
+       "quote": "svc-sccm"
       }
      ],
      "retrieved": [
@@ -3074,31 +3124,31 @@
      "label": "benign",
      "technique": null,
      "lookalike_of": "T1021.002",
-     "verdict": "needs_human",
-     "predicted_technique": null,
-     "confidence": 0.6,
+     "verdict": "malicious",
+     "predicted_technique": "T1021.002",
+     "confidence": 0.7,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 3.0580355999991298,
-     "cost_usd": 0.0005528,
-     "input_tokens": 2508,
-     "output_tokens": 604,
+     "seconds": 0.08674699999392033,
+     "cost_usd": 0.0,
+     "input_tokens": 0,
+     "output_tokens": 0,
      "calls": 1,
-     "cached_calls": 0,
+     "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "The alert shows a service account (svc-sccm) accessing the C$ administrative share on SRV-APP-03 at 00:48 UTC and touching a Finance spreadsheet, which matches the lateral-movement pattern described in T1021.002. However, SCCM service accounts legitimately use admin shares for software deployment and inventory, and the command_line is malformed, so the evidence is mixed. The Sigma rule for ADMIN$ covers a different share, so it is not a direct match. An analyst should check whether SCCM is expected to access Finance data and whether this matches a scheduled deployment window.",
+     "rationale": "The command line shows a remote access to the hidden C$ administrative share on SRV-APP-03 from 10.20.3.161, targeting a specific Finance spreadsheet, which matches the admin-share access pattern described for T1021.002. A service account like svc-sccm can legitimately use admin shares for software deployment, but nothing here suggests deployment activity, and reaching into a finance document is not typical of that. Confidence is moderate because the command line is malformed and no follow-on telemetry is available.",
      "evidence": [
-      {
-       "source": "attack",
-       "ref": "T1021.002",
-       "quote": "Adversaries may use this technique in conjunction with administrator-level Valid Accounts to remotely access a networked system over SMB"
-      },
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "share \\\\*\\C$ file Shares\\Finance\\q3.xlsx"
+      },
+      {
+       "source": "attack",
+       "ref": "T1021.002",
+       "quote": "Windows systems have hidden network shares that are accessible only to administrators and provide the ability for remote file copy and other administrative functions."
       },
       {
        "source": "alert_field",
@@ -3125,7 +3175,7 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.10477699991315603,
+     "seconds": 0.07263509999029338,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -3133,13 +3183,8 @@
      "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "The source is an internal RFC1918 address and the account name svc-nessus suggests a vulnerability scanner service account, which points toward routine activity. The alert shows only a single logon failure with no failure count, status code, or target service, so it cannot be separated from credential guessing or a stale password. A reviewer should confirm whether a Nessus scan was scheduled from 10.20.9.50 around 02:06 UTC and check for repeated failures or failures from other sources against this account.",
+     "rationale": "The alert is a single logon failure for svc-nessus, which looks like a vulnerability scanner service account, from an internal address (10.20.9.50). That fits routine authenticated scanning with a stale or wrong credential, but it also fits password guessing against that account, and the alert shows no failure count, time window, or target service to tell them apart. The Sigma rules in context (public-IP and MSSQL external-network logons) do not match an internal source, so they do not settle the question. A reviewer should check whether the scanner's credentials recently changed and whether other failures for this account appear.",
      "evidence": [
-      {
-       "source": "alert_field",
-       "ref": "event_type",
-       "quote": "logon_failure"
-      },
       {
        "source": "alert_field",
        "ref": "user",
@@ -3149,6 +3194,11 @@
        "source": "alert_field",
        "ref": "src_ip",
        "quote": "10.20.9.50"
+      },
+      {
+       "source": "attack",
+       "ref": "T1110.001",
+       "quote": "LDAP and Kerberos connection attempts are less likely to trigger events over SMB, which creates Windows \"logon failure\" event ID 4625."
       }
      ],
      "retrieved": [
@@ -3170,7 +3220,7 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.130361600080505,
+     "seconds": 0.07750410004518926,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -3178,17 +3228,17 @@
      "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The alert shows a single logon_failure event for user alee on WS-HR-007, with winlogon.exe as the process. Nothing in the alert shows a Winlogon registry modification, a helper DLL, or a script block, so the Winlogon Helper DLL and Notify key rules do not match. A lone failed logon on a workstation is consistent with a mistyped password or ordinary user activity, and the T1110.001 reference is not supported by any count or pattern of failures, so an analyst should review the surrounding logon history for this account and host.",
+     "rationale": "The alert is a single logon failure for user alee on WS-HR-007, with winlogon.exe as the process, which is normal for interactive logon. Nothing in it shows a Winlogon registry modification or helper DLL persistence, so the Winlogon techniques in context do not match. A logon failure alone is not clearly password guessing either, since there is no repeated failure pattern, and the alert lacks the registry or script telemetry needed to judge; a human should review the surrounding logon history.",
      "evidence": [
-      {
-       "source": "alert_field",
-       "ref": "event_type",
-       "quote": "logon_failure"
-      },
       {
        "source": "alert_field",
        "ref": "process",
        "quote": "C:\\Windows\\System32\\winlogon.exe"
+      },
+      {
+       "source": "alert_field",
+       "ref": "event_type",
+       "quote": "logon_failure"
       }
      ],
      "retrieved": [
@@ -3206,11 +3256,11 @@
      "lookalike_of": "T1110",
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.3,
+     "confidence": 0.5,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.1357933001127094,
+     "seconds": 0.07239730004221201,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -3218,7 +3268,7 @@
      "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The alert is a single logon failure for user tnguyen from 10.20.3.105 against a file server, which by itself is common and benign (mistyped passwords, expired credentials). The process field shows winlogon.exe, which is normal for logon handling, and it does not match any Winlogon persistence indicator in the provided context (no registry modification or helper DLL activity). A single failure without repeated attempts or other suspicious activity does not establish password guessing, so an analyst should review the source host and recent authentication history for this account.",
+     "rationale": "The alert shows one logon failure for user tnguyen from internal address 10.20.3.105, with winlogon.exe listed as the process. It contains no registry write, script, or Winlogon key change, so it does not match the Winlogon Helper DLL persistence technique (T1547.004). A single failure could be a mistyped password or part of password guessing (T1110.001), and the alert lacks the failure count or time window needed to tell these apart.",
      "evidence": [
       {
        "source": "alert_field",
@@ -3228,7 +3278,7 @@
       {
        "source": "attack",
        "ref": "T1110.001",
-       "quote": "LDAP and Kerberos connection attempts are less likely to trigger events over SMB, which creates Windows \"logon failure\" event ID 4625."
+       "quote": "Windows \"logon failure\" event ID 4625"
       }
      ],
      "retrieved": [
@@ -3246,11 +3296,11 @@
      "lookalike_of": "T1547.001",
      "verdict": "malicious",
      "predicted_technique": "T1547.001",
-     "confidence": 0.8,
+     "confidence": 0.75,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.18350289994850755,
+     "seconds": 0.09934950014576316,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -3258,12 +3308,12 @@
      "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "A SYSTEM-context process wrote a machine-wide Run key named 'Teams' pointing to an executable in the C:\\Users\\Public staging area, which is a common location for dropped malware and is not where Teams is normally installed. The value name imitates a legitimate application, and the setup.exe parent sits under Common Files\\Update, which is a plausible masquerade location. Persistence via this key matches T1547.001, though the Teams install mechanism could be a legitimate updater, so confidence is moderate and host verification of the binary's hash, signature and parent process is advisable.",
+     "rationale": "A SYSTEM-context process wrote a value into the machine-wide HKLM Run key, which launches a program at every user logon, matching the T1547.001 persistence technique. The referenced executable sits in C:\\Users\\Public, a user-writable location, which is not where legitimate Teams deployments usually place a machine-wide startup binary. The alert does not show the installer's provenance or whether this was a sanctioned deployment, so confidence is moderate and an analyst should verify the setup.exe origin and the Update.exe hash.",
      "evidence": [
       {
        "source": "attack",
        "ref": "T1547.001",
-       "quote": "Adversaries may achieve persistence by adding a program to a startup folder or referencing it with a Registry run key."
+       "quote": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
       },
       {
        "source": "alert_field",
@@ -3271,9 +3321,9 @@
        "quote": "registry HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\Teams = C:\\Users\\Public\\Teams\\Update.exe --processStart Teams.exe"
       },
       {
-       "source": "attack",
-       "ref": "T1547.001",
-       "quote": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+       "source": "alert_field",
+       "ref": "process",
+       "quote": "C:\\Program Files\\Common Files\\Update\\setup.exe"
       }
      ],
      "retrieved": [
@@ -3291,11 +3341,11 @@
      "lookalike_of": "T1547.001",
      "verdict": "needs_human",
      "predicted_technique": null,
-     "confidence": 0.6,
+     "confidence": 0.55,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.19898760016076267,
+     "seconds": 0.1298597001004964,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -3303,7 +3353,7 @@
      "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 4,
-     "rationale": "The alert is a SYSTEM-level write to the HKLM Run key that adds a Zoom autostart entry, which matches the ASEP persistence pattern in the Sigma rule and T1547.001. However, the writer is an installer-style setup.exe in an unusual Common Files\\Update path, and Zoom autostart on a backup server is an odd fit, though it could be a legitimate software deployment. The evidence is mixed, so an analyst should confirm whether this setup.exe and Zoom install were approved on SRV-BKP-02.",
+     "rationale": "A SYSTEM-level process wrote an HKLM Run value that launches Zoom at logon, which matches the ASEP modification pattern in the Sigma rule and is consistent with a Zoom installer or updater. However, the writer is a setup.exe under Common Files\\Update on a backup server, not the Zoom installation directory, and the alert lacks parent-process and install-context telemetry. Because the evidence points both ways, a human should confirm whether this is an authorized Zoom deployment or an unexpected persistence write.",
      "evidence": [
       {
        "source": "attack",
@@ -3341,19 +3391,19 @@
      "lookalike_of": "T1547.001",
      "verdict": "malicious",
      "predicted_technique": "T1547.001",
-     "confidence": 0.7,
+     "confidence": 0.8,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.4007035999093205,
+     "seconds": 0.10829469980672002,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
-     "quotes_verified": 3,
-     "quotes_total": 4,
-     "rationale": "A SYSTEM-context msiexec process wrote an HKLM Run value that launches an executable from C:\\Users\\Public, a user-writable location, on a file server. That matches the autostart persistence pattern described for T1547.001 and the ASEP modification Sigma rule. Teams is normally installed per-user under HKCU or from Program Files, so this is unusual, though a legitimate deployment script could still explain it and should be confirmed.",
+     "quotes_verified": 2,
+     "quotes_total": 3,
+     "rationale": "A SYSTEM-context msiexec.exe wrote an HKLM Run value that auto-starts an executable from C:\\Users\\Public, a user-writable directory, under a name that imitates Teams. This matches the T1547.001 pattern of adding programs to run keys for persistence. A legitimate Teams install would normally place its binary under Program Files, so nothing here clearly points to legitimate use, though the alert alone does not show the file's signature or origin.",
      "evidence": [
       {
        "source": "alert_field",
@@ -3361,19 +3411,14 @@
        "quote": "registry HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\Teams = C:\\Users\\Public\\Teams\\Update.exe --processStart Teams.exe"
       },
       {
-       "source": "alert_field",
-       "ref": "user",
-       "quote": "NT AUTHORITY\\SYSTEM"
+       "source": "sigma",
+       "ref": "CurrentVersion Autorun Keys Modification",
+       "quote": "Detects modification of autostart extensibility point (ASEP) in registry."
       },
       {
        "source": "attack",
        "ref": "T1547.001",
-       "quote": "Registry run key entries can reference programs directly or list them as a dependency."
-      },
-      {
-       "source": "sigma",
-       "ref": "CurrentVersion Autorun Keys Modification",
-       "quote": "Detects modification of autostart extensibility point (ASEP) in registry."
+       "quote": "Registry run keys can reference programs directly or list them as a dependency."
       }
      ],
      "retrieved": [
@@ -3395,7 +3440,7 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.2655048999004066,
+     "seconds": 0.10203989990986884,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -3403,7 +3448,7 @@
      "cached_calls": 1,
      "quotes_verified": 2,
      "quotes_total": 2,
-     "rationale": "The accessing process is CrowdStrike's Falcon sensor service running from Program Files as SYSTEM, which matches the legitimate-software exclusions in the LSASS access rules. The access mask 0x1410 is one the rule flags, so the exclusion is what makes this benign rather than a match against the rule itself. Confidence is moderate because the alert does not confirm the binary's signature or hash, and an attacker could masquerade under a trusted path.",
+     "rationale": "The LSASS access comes from CrowdStrike's Falcon sensor binary under C:\\Program Files, running as NT AUTHORITY\\SYSTEM on a workstation, which matches the vendor-path exclusion in the non-system-account LSASS rule and the security-tooling pattern. The access mask 0x1410 is one the rule flags, so the process path and account are what distinguish this from credential dumping. Nothing in the alert indicates abuse, though an EDR's LSASS access is the kind of activity a tampered or spoofed binary would also produce, so confidence is moderate.",
      "evidence": [
       {
        "source": "alert_field",
@@ -3435,20 +3480,25 @@
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.24493929999880493,
+     "seconds": 0.11792670004069805,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
      "calls": 1,
      "cached_calls": 1,
-     "quotes_verified": 1,
-     "quotes_total": 1,
-     "rationale": "A VMware Tools process opening a handle to lsass.exe with access mask 0x1010 (query plus VM read) is unusual and matches the general LSASS-access pattern for credential dumping, but none of the supplied Sigma rules match: the whitelisted-tool rule requires TrolleyExpress, ProcessDump or dump64 as the source, and the dbgcore/dbghelp rule requires a call trace and a suspicious source path that the alert does not show. The alert does not say whether vmtoolsd is a legitimate VMware Tools operation or a hijacked process, so an analyst should check the binary's signature and path, the parent process, and whether this host's VMware Tools activity is normal.",
+     "quotes_verified": 2,
+     "quotes_total": 2,
+     "rationale": "A SYSTEM-level VMware Tools process opening LSASS with access mask 0x1010 (VM_READ plus query) resembles credential-dumping access, which is why it cannot be dismissed. However, the source image is not one of the known dumping tools in the context rules, and the Dbgcore/Dbghelp rule cannot be checked because no CallTrace field was provided. Whether this is legitimate VMware Tools behaviour or abuse needs confirmation from a person with host and vendor-behaviour context.",
      "evidence": [
       {
        "source": "alert_field",
        "ref": "command_line",
        "quote": "C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe accessed C:\\Windows\\System32\\lsass.exe access=0x1010"
+      },
+      {
+       "source": "sigma",
+       "ref": "LSASS Access From Potentially White-Listed Processes",
+       "quote": "SourceImage|endswith: [\\TrolleyExpress.exe, \\ProcessDump.exe, \\dump64.exe], TargetImage|endswith: \\lsass.exe"
       }
      ],
      "retrieved": [
@@ -3466,11 +3516,11 @@
      "lookalike_of": "T1003.001",
      "verdict": "benign",
      "predicted_technique": null,
-     "confidence": 0.85,
+     "confidence": 0.8,
      "model_verdict": null,
      "status": "ok",
      "reason": null,
-     "seconds": 0.38443330000154674,
+     "seconds": 0.10879229987040162,
      "cost_usd": 0.0,
      "input_tokens": 0,
      "output_tokens": 0,
@@ -3478,7 +3528,7 @@
      "cached_calls": 1,
      "quotes_verified": 3,
      "quotes_total": 3,
-     "rationale": "The accessing process is MsSense.exe, the Microsoft Defender for Endpoint sensor, running from its standard Program Files install path under SYSTEM. The Sigma LSASS rules in context exclude Program Files and SYSTEM-context sources for this kind of access, and this matches expected EDR behaviour. The access mask 0x1010 is seen with legitimate security tooling, so the alert is most likely a false positive, though confirming the binary's signature and path on the host would raise confidence further.",
+     "rationale": "The accessing process is MsSense.exe, the Microsoft Defender for Endpoint sensor, running from the Program Files directory as NT AUTHORITY\\SYSTEM, which matches the security-tooling exclusions in the LSASS access Sigma rules. The access mask 0x1010 is the read-only VM and query rights commonly used by security agents, and nothing in the alert shows credential dumping behaviour. Confidence is moderately high because the alert lacks parent process and follow-on telemetry, but nothing points to abuse.",
      "evidence": [
       {
        "source": "alert_field",

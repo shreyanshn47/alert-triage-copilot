@@ -4,19 +4,19 @@
 
 | Measure | Rules only | LLM, no retrieval | LLM + retrieval |
 |---|---|---|---|
-| Malicious recall, plan definition (malicious or needs_human) | 13/18 (72%; 49%-88%) | 17/18 (94%; 74%-99%) | 18/18 (100%; 82%-100%) |
-| Malicious actually called `malicious` | 13/18 (72%; 49%-88%) | 5/18 (28%; 12%-51%) | 9/18 (50%; 29%-71%) |
-| Benign false-positive rate (benign called malicious) | 4/18 (22%; 9%-45%) | 0/18 (0%; 0%-18%) | 2/18 (11%; 3%-33%) |
-| Benign auto-closed as benign | 14/18 (78%; 55%-91%) | 5/18 (28%; 12%-51%) | 6/18 (33%; 16%-56%) |
-| Sent to a human (needs_human, all alerts) | 0/36 (0%; 0%-10%) | 25/36 (69%; 53%-82%) | 19/36 (53%; 37%-68%) |
-| Technique accuracy, top-1 (all malicious) | 12/18 (67%; 44%-84%) | 5/18 (28%; 12%-51%) | 9/18 (50%; 29%-71%) |
-| Technique accuracy (among those called malicious) | 12/13 (92%; 67%-99%) | 5/5 (100%; 57%-100%) | 9/9 (100%; 70%-100%) |
+| Malicious recall, plan definition (malicious or needs_human) | 13/18 (72%; 49%-88%) | 17/18 (94%; 74%-99%) | 16/18 (89%; 67%-97%) |
+| Malicious actually called `malicious` | 13/18 (72%; 49%-88%) | 6/18 (33%; 16%-56%) | 16/18 (89%; 67%-97%) |
+| Benign false-positive rate (benign called malicious) | 4/18 (22%; 9%-45%) | 0/18 (0%; 0%-18%) | 3/18 (17%; 6%-39%) |
+| Benign auto-closed as benign | 14/18 (78%; 55%-91%) | 3/18 (17%; 6%-39%) | 7/18 (39%; 20%-61%) |
+| Sent to a human (needs_human, all alerts) | 0/36 (0%; 0%-10%) | 26/36 (72%; 56%-84%) | 8/36 (22%; 12%-38%) |
+| Technique accuracy, top-1 (all malicious) | 12/18 (67%; 44%-84%) | 6/18 (33%; 16%-56%) | 16/18 (89%; 67%-97%) |
+| Technique accuracy (among those called malicious) | 12/13 (92%; 67%-99%) | 6/6 (100%; 61%-100%) | 16/16 (100%; 81%-100%) |
 | Retrieval hit@5 | n/a | n/a | 18/18 (100%; 82%-100%) |
-| Evidence quotes found word for word in source | n/a | 51/52 | 86/92 |
-| Answers valid first try / after retry / fell back | n/a | 36 / 0 / 0 | 34 / 2 / 0 |
-| Injection resistance (20 samples) | n/a | not measured | 20/20 (100%; 84%-100%) |
-| Cost per 1,000 alerts | $0 | $0.31 | n/a (cache) |
-| Latency per alert, median / 95th percentile | <0.01 s | 1.8 s / 4.4 s | 3.4 s / 3.8 s |
+| Evidence quotes found word for word in source | n/a | 58/59 | 90/95 |
+| Answers valid first try / after retry / fell back | n/a | 36 / 0 / 0 | 35 / 1 / 0 |
+| Injection resistance (20 samples) | n/a | 20/20 (100%; 84%-100%) | 20/20 (100%; 84%-100%) |
+| Cost per 1,000 alerts | $0 | n/a (cache) | n/a (cache) |
+| Latency per alert, median / 95th percentile | <0.01 s | n/a | n/a |
 
 ## Confusion counts (rows: true label; columns: verdict)
 
@@ -31,15 +31,15 @@
 
 | true \ verdict | malicious | benign | needs_human | error |
 |---|---|---|---|---|
-| malicious | 5 | 1 | 12 | 0 |
-| benign | 0 | 5 | 13 | 0 |
+| malicious | 6 | 1 | 11 | 0 |
+| benign | 0 | 3 | 15 | 0 |
 
 **LLM + retrieval**
 
 | true \ verdict | malicious | benign | needs_human | error |
 |---|---|---|---|---|
-| malicious | 9 | 0 | 9 | 0 |
-| benign | 2 | 6 | 10 | 0 |
+| malicious | 16 | 2 | 0 | 0 |
+| benign | 3 | 7 | 8 | 0 |
 
 ## Notes and limitations
 
