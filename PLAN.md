@@ -166,3 +166,16 @@ Add one line per work block: date, step, what works, what is next, measured numb
   Found and fixed on the way: SMB/registry/LSASS events had no command line (parser now adds a detail string),
   benign generator produced duplicate behaviours, per-call DB connections exhausted local ports (added a pool).
   Deferred to step 5: the 20 injection samples. Next: step 4 (triage service, 2.5 h).
+- 2026-11-01, Step 4 (triage service), roughly 2.5 h of 2.5 h budget (estimate, not timed): prompt with delimited
+  untrusted alert text (closing tags neutralized), strict Pydantic verdict, rules enforced in code (evidence refs
+  must exist in context or alert, malicious needs evidence, one retry then needs_human, low confidence or refusal or
+  truncation -> needs_human), on-disk LLM cache, cost estimate, `POST /alerts/{id}/triage`, API image now bakes in
+  CPU torch and the embedding model. Model `claude-haiku-5-5`, effort low, retrieval on. `ruff` clean, `pytest` 131
+  passed (scripted fake LLM, no network). MEASURED on dev (36 alerts, diagnostic only, prompt not tuned):
+  34/36 valid first try, 2/36 valid after one retry, 0/36 fell back; cached re-run made 0 API calls and cost $0.
+  Real cost of the dev run about $0.02 (112,707 in / 22,461 out tokens); latency median 5.5 s, p95 13 s per live
+  alert. Evidence quotes verbatim in source: 86/91. Dev outcomes (not headline metrics): malicious 9 malicious /
+  0 benign / 9 needs_human; benign 2 malicious / 6 benign / 10 needs_human. The 2 benign->malicious are installer
+  Run-key writes (T1547.001 look-alikes). needs_human is high (19/36): threshold 0.6 and prompt untuned.
+  Live check in Docker: ingest then triage returned a validated, cited verdict. Next: step 5 (injection and
+  guardrail tests, 1 h).
