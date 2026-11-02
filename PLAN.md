@@ -146,3 +146,11 @@ Add one line per work block: date, step, what works, what is next, measured numb
   `db/init.sql` enabling `vector`, CI workflow. `ruff check` clean, `pytest` 2 passed, `docker compose up` healthy,
   pgvector 0.8.7 confirmed. Not yet verified: CI green (git initialized, no remote or first commit yet).
   Local Python is 3.13; Docker and CI pin 3.12. Next: step 2 (ingest, normalize, dedup). No numbers yet.
+- 2026-11-01, Step 2 (ingest, normalize, dedup), roughly 1.5 h of 2 h budget (estimate, not timed): Sysmon-style
+  JSON and syslog parsers, normalized schema, fingerprint (tenant, host, user, process, normalized command line,
+  event type), 10-minute grouping anchored at a group's first alert, `POST /alerts` (per-record rejection),
+  `GET /alerts/{id}`, memory and Postgres stores sharing one contract test suite, SQL migration runner,
+  advisory lock per (tenant, fingerprint). `ruff` clean, `pytest` 72 passed (including Postgres runs).
+  Verified through the live container: two near-identical alerts landed in one group, garbage record rejected.
+  Cut-list status: nothing cut, syslog parser kept. Not verified: CI (no remote yet) and Python 3.12 locally.
+  Next: step 3 (data + retrieval, 3 h). No evaluation numbers yet.
