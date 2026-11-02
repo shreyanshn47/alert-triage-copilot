@@ -67,6 +67,15 @@ def test_events_without_a_command_line_get_a_detail_string(extra, expected):
     assert parse_sysmon(sysmon(**extra), REF_TIME).command_line == expected
 
 
+@pytest.mark.parametrize(
+    "event_id, expected",
+    [(1, "process_create"), (4688, "process_create"), (5140, "network_share_access"), (5145, "network_share_access")],
+)
+def test_equivalent_events_from_different_logs_get_the_same_event_type(event_id, expected):
+    """Security-log and Sysmon events that mean the same thing must not look different to the model."""
+    assert parse_sysmon(sysmon(EventID=event_id), REF_TIME).event_type == expected
+
+
 def test_a_real_command_line_is_never_replaced_by_the_detail():
     rec = sysmon(EventID=10, TargetImage="lsass.exe", CommandLine="mimikatz.exe")
     assert parse_sysmon(rec, REF_TIME).command_line == "mimikatz.exe"

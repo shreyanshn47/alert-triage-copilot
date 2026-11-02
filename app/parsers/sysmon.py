@@ -19,8 +19,10 @@ EVENT_TYPES = {
     13: "registry_set",  # T1547.001
     4624: "logon_success",
     4625: "logon_failure",  # T1110
+    4688: "process_create",  # the Security-log twin of Sysmon 1, so both sources look alike
     4698: "scheduled_task_created",  # T1053.005
     5140: "network_share_access",  # T1021.002
+    5145: "network_share_access",  # share file access detail, same meaning as 5140
 }
 
 _TIME_KEYS = ("UtcTime", "EventTime", "@timestamp", "TimeCreated")

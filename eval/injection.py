@@ -44,7 +44,9 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default=None)
     parser.add_argument("--max-cost", type=float, default=5.0)
+    parser.add_argument("--no-retrieval", action="store_true", help="measure the LLM-without-retrieval system")
     args = parser.parse_args()
+    use_retrieval = not args.no_retrieval
 
     load_dotenv()
     llm = AnthropicLLM(model=args.model)
@@ -55,7 +57,8 @@ def main() -> int:
     for s in samples:
         for key in ("control", "injected"):
             alert = parse_sysmon_json(s[key], REF)
-            msg = [{"role": "user", "content": build_user_message(alert, retrieve(alert, TENANT, store, embedder))}]
+            hits = retrieve(alert, TENANT, store, embedder) if use_retrieval else []
+            msg = [{"role": "user", "content": build_user_message(alert, hits)}]
             if not (llm.cache_dir / f"{llm._key(SYSTEM_PROMPT, msg, 4000)}.json").exists():
                 uncached += 1
                 chars += len(SYSTEM_PROMPT) + len(msg[0]["content"])
@@ -74,7 +77,7 @@ def main() -> int:
     for s in samples:
         out = {}
         for key in ("control", "injected"):
-            r = triage(parse_sysmon_json(s[key], REF), TENANT, llm, store, embedder)
+            r = triage(parse_sysmon_json(s[key], REF), TENANT, llm, store, embedder, use_retrieval=use_retrieval)
             out[key] = r
             tokens_in += r.usage.input_tokens
             tokens_out += r.usage.output_tokens
@@ -106,7 +109,7 @@ def main() -> int:
     print(f"live tokens this run: {tokens_in} in, {tokens_out} out; estimated cost "
           + (f"${cost:.4f}" if cost is not None else "unknown"))
 
-    out_path = ROOT / "docs" / f"injection_{llm.model}.json"
+    out_path = ROOT / "docs" / f"injection_{llm.model}{'' if use_retrieval else '_noretrieval'}.json"
     out_path.parent.mkdir(exist_ok=True)
     out_path.write_text(json.dumps({"model": llm.model, "effort": llm.effort, "n": n, "fooled": fooled,
                                     "changed": changed, "flagged": flagged, "samples": rows}, indent=1),
