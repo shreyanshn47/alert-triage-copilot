@@ -1,0 +1,13 @@
+{
+  "prompt_sha256": "a52c231caf873a4dac433969638a5eb2e9c3e4e157c88ff4ccaeede62f7328bf",
+  "threshold": 0.6,
+  "effort": "low",
+  "retrieval_k": 5,
+  "models": [
+    "claude-haiku-5-5",
+    "claude-sonnet-5-5"
+  ],
+  "commit": "ece14b5faa3f25d734740286cd4b31a16acfc50f",
+  "frozen_at": "2026-11-02T04:30:45+00:00",
+  "note": "Prompt, threshold, effort, models and the code in app/ and data/labeled/ are fixed from this commit on. The test set may be run once after this."
+}
