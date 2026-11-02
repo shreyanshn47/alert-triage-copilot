@@ -154,3 +154,15 @@ Add one line per work block: date, step, what works, what is next, measured numb
   Verified through the live container: two near-identical alerts landed in one group, garbage record rejected.
   Cut-list status: nothing cut, syslog parser kept. Not verified: CI (no remote yet) and Python 3.12 locally.
   Next: step 3 (data + retrieval, 3 h). No evaluation numbers yet.
+- 2026-11-01, Step 3 (data + retrieval), roughly 3 h of 3 h budget (estimate, not timed): fetch scripts with pinned
+  checksums (OTRF, Splunk attack_data, ATT&CK v20.0, SigmaHQ commit 05d1031f537e), `data/build_labeled.py` selectors,
+  `data/make_benign.py`, `DATA_SOURCES.md` (licenses and attribution), migration 002 (pgvector), chunking, local
+  bge-small embeddings, `retrieve(alert, tenant)` filtered to public + own tenant, connection pool, `eval.retrieval`.
+  Labeled set: 52 malicious (not 60: OTRF has only 5 distinct SMB and 7 failed-logon events) + 60 benign; 36 dev
+  (18 + 18), 76 test (34 + 42). Corpus: 123 ATT&CK + 714 Sigma chunks. `ruff` clean, `pytest` 100 passed.
+  MEASURED, dev set only (n=18 malicious): retrieval hit@5 = 18/18 (attack + sigma), 16/18 (attack only), 17/18
+  (sigma only); hit@1 = 16/18. Treat as optimistic: n is tiny, labels are per dataset (some "malicious" events look
+  harmless), Sigma rules were written for these behaviours. Test split untouched. Results in `docs/retrieval_dev.md`.
+  Found and fixed on the way: SMB/registry/LSASS events had no command line (parser now adds a detail string),
+  benign generator produced duplicate behaviours, per-call DB connections exhausted local ports (added a pool).
+  Deferred to step 5: the 20 injection samples. Next: step 4 (triage service, 2.5 h).

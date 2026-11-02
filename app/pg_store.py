@@ -1,15 +1,15 @@
 """PostgreSQL alert store (psycopg 3, plain SQL).
 
-One connection per call for now. A pool is the first thing to add if this becomes a hot path.
+Connections come from a shared pool (app/db.py).
 """
 
 from datetime import timedelta
 from uuid import UUID, uuid4
 
-import psycopg
 from psycopg.rows import dict_row
 from psycopg.types.json import Jsonb
 
+from app.db import get_pool
 from app.schemas import Alert
 
 _FIND_GROUP = """
@@ -39,13 +39,14 @@ WHERE tenant_id = %s AND id = %s
 
 class PostgresStore:
     def __init__(self, dsn: str) -> None:
-        self._dsn = dsn
+        self._pool = get_pool(dsn)
 
     def add_alert(self, alert: Alert, window: timedelta) -> tuple[Alert, bool]:
-        # `with connect()` commits on success and rolls back on error. The transaction-scoped
-        # advisory lock serializes concurrent inserts of the same (tenant, fingerprint), so two
-        # identical alerts arriving together cannot both decide to start a new group.
-        with psycopg.connect(self._dsn) as conn:
+        # `with pool.connection()` commits on success and rolls back on error. The
+        # transaction-scoped advisory lock serializes concurrent inserts of the same
+        # (tenant, fingerprint), so two identical alerts arriving together cannot both decide
+        # to start a new group.
+        with self._pool.connection() as conn:
             conn.execute(
                 "SELECT pg_advisory_xact_lock(hashtextextended(%s, 0))",
                 (f"{alert.tenant_id}:{alert.fingerprint}",),
@@ -83,6 +84,6 @@ class PostgresStore:
         return alert.model_copy(update={"group_id": group_id}), new_group
 
     def get(self, tenant_id: str, alert_id: UUID) -> Alert | None:
-        with psycopg.connect(self._dsn, row_factory=dict_row) as conn:
-            row = conn.execute(_SELECT, (tenant_id, alert_id)).fetchone()
+        with self._pool.connection() as conn:
+            row = conn.cursor(row_factory=dict_row).execute(_SELECT, (tenant_id, alert_id)).fetchone()
         return Alert(**row) if row else None

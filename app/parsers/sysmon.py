@@ -47,6 +47,31 @@ def _first_ip(record: dict[str, Any], keys: tuple[str, ...]) -> str | None:
     return None
 
 
+def _detail(record: dict[str, Any], event_id: int) -> str | None:
+    """A short description for events that carry no command line.
+
+    Share access, registry writes, LSASS access and scheduled-task events have no command, so
+    without this their `command_line` is empty: the fingerprint could not tell one share or
+    registry key from another, and there would be nothing to show an analyst or to embed.
+    """
+    get = lambda key: clean(record.get(key))  # noqa: E731
+    if event_id == 10 and get("TargetImage"):
+        return f"{get('SourceImage')} accessed {get('TargetImage')} access={get('GrantedAccess')}"
+    if event_id == 11 and get("TargetFilename"):
+        return f"created file {get('TargetFilename')}"
+    if event_id in (12, 13, 14) and get("TargetObject"):
+        detail = f"registry {get('TargetObject')}"
+        return f"{detail} = {get('Details')}" if get("Details") else detail
+    if event_id == 3 and get("DestinationIp"):
+        return f"connect {get('DestinationIp')}:{get('DestinationPort')}"
+    if event_id == 4698 and get("TaskName"):
+        return f"scheduled task {get('TaskName')}"
+    if event_id in (5140, 5145) and get("ShareName"):
+        target = f" file {get('RelativeTargetName')}" if get("RelativeTargetName") else ""
+        return f"share {get('ShareName')}{target}"
+    return None
+
+
 def parse_sysmon_json(record: Any, ref_time: datetime) -> ParsedAlert:
     if not isinstance(record, dict):
         raise ParseError("record must be a JSON object")
@@ -65,7 +90,7 @@ def parse_sysmon_json(record: Any, ref_time: datetime) -> ParsedAlert:
         host=_first(record, _HOST_KEYS),
         user=_first(record, _USER_KEYS),
         process=_first(record, _PROCESS_KEYS),
-        command_line=clean(record.get("CommandLine")),
+        command_line=clean(record.get("CommandLine")) or clean(_detail(record, event_id)),
         src_ip=_first_ip(record, _SRC_IP_KEYS),
         dst_ip=_first_ip(record, _DST_IP_KEYS),
         event_type=EVENT_TYPES.get(event_id, f"event_{event_id}"),

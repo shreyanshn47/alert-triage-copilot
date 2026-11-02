@@ -42,6 +42,36 @@ def test_sysmon_failed_logon_uses_security_log_field_names():
     assert (a.event_type, a.host, a.user, a.src_ip) == ("logon_failure", "dc01", "admin", None)
 
 
+@pytest.mark.parametrize(
+    "extra, expected",
+    [
+        (
+            {"EventID": 10, "SourceImage": "C:\\x\\a.exe", "TargetImage": "C:\\Windows\\lsass.exe",
+             "GrantedAccess": "0x1010", "CommandLine": None},
+            "C:\\x\\a.exe accessed C:\\Windows\\lsass.exe access=0x1010",
+        ),
+        (
+            {"EventID": 13, "TargetObject": "HKCU\\Software\\Run\\Updater", "Details": "x.exe",
+             "CommandLine": None},
+            "registry HKCU\\Software\\Run\\Updater = x.exe",
+        ),
+        (
+            {"EventID": 5145, "ShareName": "\\\\*\\C$", "RelativeTargetName": "ProgramData\\g.exe",
+             "CommandLine": None},
+            "share \\\\*\\C$ file ProgramData\\g.exe",
+        ),
+        ({"EventID": 4698, "TaskName": "\\Evil", "CommandLine": None}, "scheduled task \\Evil"),
+    ],
+)
+def test_events_without_a_command_line_get_a_detail_string(extra, expected):
+    assert parse_sysmon(sysmon(**extra), REF_TIME).command_line == expected
+
+
+def test_a_real_command_line_is_never_replaced_by_the_detail():
+    rec = sysmon(EventID=10, TargetImage="lsass.exe", CommandLine="mimikatz.exe")
+    assert parse_sysmon(rec, REF_TIME).command_line == "mimikatz.exe"
+
+
 def test_sysmon_unknown_event_id_is_kept_not_rejected():
     assert parse_sysmon(sysmon(EventID=999), REF_TIME).event_type == "event_999"
 

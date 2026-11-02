@@ -1,0 +1,14 @@
+{
+  "T1003.001__atomic_red_team__createdump_windows-sysmon.log": "b898327b2b446ba63c13934d50c899eb4b2ee2c722a7c6c4a1dae6c515720001",
+  "T1003.001__atomic_red_team__windows-sysmon.log": "a1905850598f1e943708c3329190e29c6cb046389c1575cb2afd6369b5f269f1",
+  "T1053.005__lateral_movement__windows-sysmon.log": "b2fba83212dba31492fe34b90786e9019437ab25da78e22bc9688021c5e36825",
+  "T1053.005__schtask_system__windows-sysmon.log": "598b761436a1a39b1561c3f0ce59cd8b0439601f4137c73aaf32a4f9bc35077e",
+  "T1053.005__schtasks__windows-security.log": "a260d80c6fa8d00b4ad1eaaa44a69c5467428254efd44a301a29bcac7ae922a5",
+  "T1053.005__schtasks__windows-sysmon.log": "2af70b9815a95c0be345a10e7c833cbcd5c4dd6919040d7652396b008475acba",
+  "T1059.001__encoded_powershell__windows-sysmon.log": "b9c8438a0d8cd62714a38ed093fc583c3318d1cac768c6513ad40a3b8203fd05",
+  "T1059.001__hidden_powershell__windows-security.log": "864e3e421ec612224c4b5f6a3d6615740a72d918fdb1473d08c542a1dcf1513d",
+  "T1059.001__obfuscated_powershell__windows-sysmon.log": "70d3c6982eb05a2897b9e4adcba25da2a5f1fbfbf07eca373cf4ca0c063f56a3",
+  "T1059.001__powershell_execution_policy__windows-sysmon.log": "7854054b5fa788e7c430b7045ddbebb09be43300d2b0b2478cb893e70aaaca41",
+  "T1547.001__atomic_red_team__windows-security.log": "70787fcec2ce392259d442b47602177b5544be2f81a7326eb5d553362f235c06",
+  "T1547.001__atomic_red_team__windows-sysmon.log": "11d8c6f7ca60994936ae9332ea67e5c220027ae1addad48203df6bdde9d46f5d"
+}

@@ -8,10 +8,18 @@ dependencies = [
     "uvicorn[standard]>=0.30",
     "pydantic>=2.8",
     "psycopg[binary]>=3.2",
+    "psycopg-pool>=3.2",
 ]
 
 [project.optional-dependencies]
+# Local embedding model (pulls in torch). Kept out of the base install so the API image and
+# plain unit tests stay light; steps 3 to 6 install it.
+retrieval = [
+    "sentence-transformers>=3.0",
+    "pyyaml>=6.0",
+]
 dev = [
+    "pyyaml>=6.0",
     "pytest>=8.0",
     "httpx>=0.27",
     "ruff>=0.6",
@@ -31,7 +39,7 @@ app = ["migrations/*.sql"]
 testpaths = ["tests"]
 
 [tool.ruff]
-line-length = 100
+line-length = 120
 target-version = "py312"
 
 [tool.ruff.lint]
@@ -40,3 +48,5 @@ select = ["E", "F", "I", "B", "UP"]
 [tool.ruff.lint.per-file-ignores]
 # Test data includes realistic log lines that are clearer unbroken.
 "tests/*" = ["E501"]
+# The download manifest is a table of long URL paths.
+"data/fetch_otrf.py" = ["E501"]
