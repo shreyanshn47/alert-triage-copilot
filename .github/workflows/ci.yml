@@ -33,5 +33,5 @@ jobs:
         run: ruff check .
       - name: Unit tests
         run: pytest -q
-      - name: Eval smoke gate (offline: baseline, metrics, prompt hash, lock)
+      - name: Eval smoke gate (offline, no key needed)
         run: python -m eval.smoke
