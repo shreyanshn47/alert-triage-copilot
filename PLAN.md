@@ -223,9 +223,12 @@ Add one line per work block: date, step, what works, what is next, measured numb
   metrics code reproduce the stored dev/test per-alert verdicts and summaries, that the prompt hash equals
   `docs/freeze.json` and `docs/results_test.json`, that the test lock exists and that no injection sample turned
   benign. 4 tests prove it fails on a changed prompt, baseline drift and stale summaries. CI workflow runs it after
-  pytest. `ruff` clean, `pytest` 195 passed locally (Python 3.13, torch not installed, as in CI). NOT verified: CI on
-  GitHub (no remote yet: creating the GitHub repository was blocked by the permission classifier and needs the
-  user), Python 3.12, and the README quick start from a clean machine (the index/fetch steps were not re-run).
+  pytest. `ruff` clean, `pytest` 195 passed locally (Python 3.13, torch not installed, as in CI). Remote: private repo
+  shreyanshn47/alert-triage-copilot, `main` = Step 6 (fast-forward), Step 7 on branch `step7-writeup` (PR #1).
+  CI VERIFIED on GitHub: run on `main` green, and on `step7-writeup` green (lint, 195 tests on Python 3.12 with a
+  pgvector service, smoke gate; 42 s). The first push failed with a workflow-file error (a colon inside an unquoted
+  step name); fixed and validated with a YAML parse. NOT verified: the README quick start from a clean machine (the
+  index/fetch steps were not re-run). Local `main` in the primary folder still needs `git merge --ff-only`.
   The gate cannot see model drift; the live evaluation stays manual and costed. Corrected earlier numbers: with the
   frozen prompt the injection run shows 5 of 20 verdicts changed (all malicious -> needs_human) with retrieval and
   9 without; the 8 of 20 in Step 5 was the older prompt. Never claimed benign in either case (0 of 20).
