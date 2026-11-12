@@ -6,8 +6,12 @@ employer and the author's other affiliations were reworded or deleted. Nothing e
 message, author and date is kept, and the code, data, results and tests are byte for byte the ones that were
 measured. The only effect on the record is that commit ids changed.
 
+Afterwards, in an ordinary commit, `CLAUDE.md` and `PLAN.md` were removed from the repository (earlier commits still
+hold their reworded versions). Four code comments that pointed at the plan were reworded; no executable code changed.
+
 Some files cite commit ids from before the rewrite (for example `docs/freeze.json`, `docs/test_run.lock.json`,
-`docs/results.md`, `docs/prompt_iteration.md` and the progress log in `PLAN.md`). Use this table to find the commit.
+`docs/results.md`, `docs/prompt_iteration.md`, and the progress log in the removed `PLAN.md`). Use this table to find
+the commit.
 
 | Cited id (before) | Id in this repository | Commit |
 |---|---|---|

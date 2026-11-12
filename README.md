@@ -188,7 +188,6 @@ data/           download scripts with checksums, label builders, labeled JSONL (
 eval/           harness (run.py), metrics, rules baseline, retrieval and injection runs, CI smoke gate
 tests/          unit and integration tests (fake LLM, real Postgres)
 docs/           results, freeze and lock files, review sheets, prompt iteration record, demo alerts
-PLAN.md         scope, order, acceptance criteria and the progress log
 ```
 
 ## Data and licenses

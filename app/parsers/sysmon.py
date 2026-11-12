@@ -10,7 +10,7 @@ from typing import Any
 from app.parsers.base import ParseError, clean, clean_ip, parse_timestamp
 from app.schemas import ParsedAlert
 
-# Only the event ids that matter for the six techniques in PLAN.md; others become event_<id>.
+# Only the event ids that matter for the six techniques in scope; others become event_<id>.
 EVENT_TYPES = {
     1: "process_create",  # T1059.001, T1053.005
     3: "network_connect",

@@ -19,3 +19,8 @@ __pycache__/
 data/raw/
 *.log
 .DS_Store
+
+# Local working files, not part of the published project
+CLAUDE.md
+CLAUDE.local.md
+PLAN.md
