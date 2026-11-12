@@ -207,3 +207,28 @@ Add one line per work block: date, step, what works, what is next, measured numb
   malicious, 49% to a human, $10.94 per 1,000. Differences between systems are mostly inside the intervals. Results:
   `docs/results.md`. Evidence faithfulness is NOT yet judged: `docs/faithfulness_review.md` awaits a person.
   Next: step 7 (write-up, README, CI smoke gate, 1 h).
+- 2026-11-08, Step 6 addendum (model-judged faithfulness): a blinded Claude Sonnet 5.5 reviewer judged the 20-verdict
+  sample (49 evidence items) with true labels, verdicts, confidence and the verbatim flag removed: 44 yes, 5 partly,
+  0 no. Four of the 44 yes rest on source text cut off at 600 characters (unverifiable). The weak spot is
+  ATT&CK-sourced evidence: 4 of 6 items partly, against 1 of 34 alert-field items and 0 of 9 Sigma items. Same model
+  family as the system under test, so NOT a substitute for the human review: `docs/faithfulness_review_model.md`.
+  `docs/faithfulness_review.md` (human) is still incomplete. Post-hoc read of stored test results: confidence of
+  right calls averaged 0.79 (n=51), wrong calls 0.74 (n=7), so it separates weakly; the 0.6 threshold overrode
+  nothing on test. Merge of Step 6 into main and the GitHub remote were attempted: see Step 7.
+- 2026-11-08, Step 7 (write-up, CI gate), roughly 1 h of 1 h budget (estimate, not timed): README with a Mermaid
+  architecture diagram, the test-set table copied from `docs/results.md`, limitations, quick start and a 3-minute
+  demo script run against the live API (ingest: 3 ingested, first two grouped; triage: procdump LSASS dump ->
+  malicious T1003.001 0.90, retried once, 2/2 quotes verbatim; CrowdStrike LSASS access -> benign 0.70; about $0.002
+  for the pair). `python -m eval.smoke` (offline CI gate): checks labeled data shape, that the rules baseline and the
+  metrics code reproduce the stored dev/test per-alert verdicts and summaries, that the prompt hash equals
+  `docs/freeze.json` and `docs/results_test.json`, that the test lock exists and that no injection sample turned
+  benign. 4 tests prove it fails on a changed prompt, baseline drift and stale summaries. CI workflow runs it after
+  pytest. `ruff` clean, `pytest` 195 passed locally (Python 3.13, torch not installed, as in CI). Remote: private repo
+  shreyanshn47/alert-triage-copilot, `main` = Step 6 (fast-forward), Step 7 on branch `step7-writeup` (PR #1).
+  CI VERIFIED on GitHub: run on `main` green, and on `step7-writeup` green (lint, 195 tests on Python 3.12 with a
+  pgvector service, smoke gate; 42 s). The first push failed with a workflow-file error (a colon inside an unquoted
+  step name); fixed and validated with a YAML parse. NOT verified: the README quick start from a clean machine (the
+  index/fetch steps were not re-run). Local `main` in the primary folder still needs `git merge --ff-only`.
+  The gate cannot see model drift; the live evaluation stays manual and costed. Corrected earlier numbers: with the
+  frozen prompt the injection run shows 5 of 20 verdicts changed (all malicious -> needs_human) with retrieval and
+  9 without; the 8 of 20 in Step 5 was the older prompt. Never claimed benign in either case (0 of 20).

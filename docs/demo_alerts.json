@@ -1,0 +1,30 @@
+{
+  "source": "sysmon_json",
+  "records": [
+    {
+      "EventID": 1,
+      "UtcTime": "2026-11-03 09:00:12.114",
+      "Computer": "WS-ACCT-014.corp.example",
+      "User": "CORP\\bob",
+      "Image": "C:\\Users\\Public\\procdump.exe",
+      "CommandLine": "procdump.exe -accepteula -ma lsass.exe C:\\Windows\\Temp\\l.dmp"
+    },
+    {
+      "EventID": 1,
+      "UtcTime": "2026-11-03 09:03:40.502",
+      "Computer": "WS-ACCT-014.corp.example",
+      "User": "CORP\\bob",
+      "Image": "C:\\Users\\Public\\procdump.exe",
+      "CommandLine": "procdump.exe -accepteula -ma lsass.exe C:\\Windows\\Temp\\l.dmp"
+    },
+    {
+      "EventID": 10,
+      "UtcTime": "2026-11-03 09:05:00.000",
+      "Computer": "SRV-APP-03.corp.example",
+      "User": "NT AUTHORITY\\SYSTEM",
+      "SourceImage": "C:\\Program Files\\CrowdStrike\\CSFalconService.exe",
+      "TargetImage": "C:\\Windows\\System32\\lsass.exe",
+      "GrantedAccess": "0x1410"
+    }
+  ]
+}
