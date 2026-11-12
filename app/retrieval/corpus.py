@@ -1,6 +1,6 @@
 """Turn ATT&CK STIX and SigmaHQ rules into text chunks (no embeddings here).
 
-Scope: the six techniques in PLAN.md with all their sub-techniques, plus a few neighbours that
+Scope: the six techniques in scope with all their sub-techniques, plus a few neighbours that
 look similar, so retrieval has to discriminate and not just find the only candidate.
 """
 

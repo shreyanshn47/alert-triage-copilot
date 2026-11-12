@@ -2,7 +2,7 @@
 
 Usage: python -m eval.retrieval --split dev
 
-Definitions (also in PLAN.md):
+Definitions:
   * A retrieved chunk is correct if one of its technique ids equals the alert's label, or is a
     sub-technique of it (label T1110 accepts T1110.003). A parent chunk does NOT count for a
     sub-technique label.

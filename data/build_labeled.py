@@ -36,7 +36,7 @@ from data.fetch_splunk import local_name as splunk_name  # noqa: E402
 
 SEED = 20261101
 PER_TECHNIQUE = 10
-DEV_PER_TECHNIQUE = 3  # 3 dev + 7 test per technique, about the 40/80 split in PLAN.md
+DEV_PER_TECHNIQUE = 3  # 3 dev + 7 test per technique, about a 40/80 dev/test split
 OUT = ROOT / "data" / "labeled" / "malicious.jsonl"
 REF = datetime(2026, 11, 1, tzinfo=UTC)
 
